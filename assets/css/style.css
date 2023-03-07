@@ -10,7 +10,9 @@ h6,
 span {
   font-family: 'Montserrat', sans-serif;
 }
-
+.width-100{
+  max-width: 100%;
+}
 .navbar {
   margin-bottom: 0;
   background-color: #8E2EF2;
