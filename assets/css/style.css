@@ -1,0 +1,226 @@
+body,
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #8E2EF2;
+  z-index: 9999;
+  border: 0;
+  font-size: 16px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0px;
+}
+.navbar .navbar-brand {
+  padding: 0px;
+  margin: 14px 0px;
+
+}
+.navbar .navbar-brand img{
+
+  width: 80%;
+
+}
+.navbar li a{
+
+  color: #fff !important;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 0.5px;
+  margin: 14px 0px;
+
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #222121 !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+.btn {
+  font-size: 17px;
+  background: #E74C3C;
+  border-radius: 60px;
+  width: 155px;
+  height: 50px;
+  color: #fff;
+}
+
+.btn-blue button {
+  background: #8E2EF2;
+  border: 1px solid #7E2DFC;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  margin-top: 30px;
+}
+
+.btn-top {
+  margin-top: 10px;
+}
+
+.bg-color-blue {
+  background-color: #8E2EF2;
+  border-radius: 0px 40px;
+  padding: 20px 0px 20px 15px;
+}
+
+.list {
+  color: #FFF61D;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 130%;
+  letter-spacing: -0.5px;
+  color: #04162F;
+  padding: 50px 0px 30px 0px;
+}
+
+.bg-color {
+  background: #FDF6E3;
+  padding: 30px 0px 30px 0px;
+}
+
+.entrepreneures {
+  padding-right: 340px;
+}
+
+.entrepreneures p {
+  text-align: left;
+  color: white;
+  margin-top: 12px;
+}
+
+.tranches img {
+  display: inline;
+  position: absolute;
+  top: -54px;
+  right: 0;
+}
+
+
+.position-relative {
+  position: relative;
+}
+
+.margin-head h2 {
+  padding: 45px 0px 45px 0px;
+  font-weight: 600;
+}
+
+.teams p {
+  color: #868686;
+}
+
+.contact {
+  background: #8E2EF2;
+}
+
+.mt-text {
+  margin-top: 90px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.width-100 img {
+  width: 100%;
+}
+
+.txt-align {
+  text-align: justify;
+}
+
+.entre-txt {
+  font-weight: 700;
+  text-align: left;
+}
+
+.contact-section {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+.contact-section input {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 20px;
+  border-radius: 60px;
+}
+
+.contact-section button {
+  margin-top: 20px;
+  border-radius: 6px;
+  width: 100px;
+  height: 35px;
+  font-size: 10px;
+  text-align: center;
+  border-color: rgb(222, 219, 219);
+  margin-right: 95px;
+}
+
+.mg-0 {
+  margin-right: 0 !important;
+}
+
+.submit-btn button {
+  font-style: normal;
+  width: 130px;
+  height: 35px;
+  border-radius: 60px;
+  font-weight: 800;
+  background-color: #FFDB1D;
+  color: #0F0434;
+  margin-top: 20px;
+
+}
+.contact-us{
+  background: #FFDB1D;
+  border-radius: 60px;
+  padding: 12px 23px !important;
+  margin: 14px 0px;
+}
