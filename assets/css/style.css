@@ -623,3 +623,6 @@ TEXTAREA {
     margin-top: 23px;
 }
 }
+.row{
+  margin-right: unset;
+}
