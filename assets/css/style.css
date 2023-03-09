@@ -218,6 +218,7 @@ h1 {
   background-color: #FFDB1D;
   color: #0F0434;
   margin-top: 20px;
+  float: left;
 
 }
 .contact-us{
@@ -226,3 +227,40 @@ h1 {
   padding: 12px 23px !important;
   margin: 14px 0px;
 }
+
+.max-width {
+  max-width: 100%;
+}
+
+.Reviews-section {
+  background-color: #8E2EF2;
+  width: 900px;
+  height: 400px;
+  border-radius: 6px;
+}
+
+.Reviews-section p {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  text-align: justify;
+  font: Montserrat;
+  padding: 100px 80px 0px 80px;
+}
+
+.Reviews-section h2 {
+  color: white;
+}
+
+.Reviews-section-image {
+  float: left;
+}
+
+.text-msg input {
+  border-radius: 10px;
+  height: 110px;
+  margin-top: 20px;
+}
+
+
