@@ -8,14 +8,14 @@ h4,
 h5,
 h6,
 span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-.width-100{
+.width-100 {
   max-width: 100%;
 }
 .navbar {
   margin-bottom: 0;
-  background-color: #8E2EF2;
+  background-color: #8e2ef2;
   z-index: 9999;
   border: 0;
   font-size: 16px !important;
@@ -26,17 +26,13 @@ span {
 .navbar .navbar-brand {
   padding: 0px;
   margin: 14px 0px;
-
 }
-.navbar .navbar-brand img{
-
+.navbar .navbar-brand img {
   width: 80%;
-
 }
-.navbar li a{
-
+.navbar li a {
   color: #fff !important;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 19px;
@@ -45,7 +41,6 @@ span {
 
   letter-spacing: 0.5px;
   margin: 14px 0px;
-
 }
 
 .navbar-nav li a:hover,
@@ -63,15 +58,9 @@ span {
   padding: 60px 50px;
 }
 
-h2 {
-  font-size: 30px;
-  font-weight: 600;
-}
-
-
 .btn {
   font-size: 17px;
-  background: #E74C3C;
+  background: #e74c3c;
   border-radius: 60px;
   width: 155px;
   height: 50px;
@@ -79,8 +68,8 @@ h2 {
 }
 
 .btn-blue button {
-  background: #8E2EF2;
-  border: 1px solid #7E2DFC;
+  background: #8e2ef2;
+  border: 1px solid #7e2dfc;
   font-size: 17px;
   color: #fff;
   border-radius: 10px;
@@ -94,13 +83,13 @@ h2 {
 }
 
 .bg-color-blue {
-  background-color: #8E2EF2;
+  background-color: #8e2ef2;
   border-radius: 0px 40px;
   padding: 20px 0px 20px 15px;
 }
 
 .list {
-  color: #FFF61D;
+  color: #fff61d;
   font-weight: 700;
   font-size: 20px;
   font-style: normal;
@@ -108,18 +97,18 @@ h2 {
 }
 
 h1 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
   line-height: 130%;
   letter-spacing: -0.5px;
-  color: #04162F;
+  color: #04162f;
   padding: 50px 0px 30px 0px;
 }
 
 .bg-color {
-  background: #FDF6E3;
+  background: #fdf6e3;
   padding: 30px 0px 30px 0px;
 }
 
@@ -140,7 +129,6 @@ h1 {
   right: 0;
 }
 
-
 .position-relative {
   position: relative;
 }
@@ -150,16 +138,50 @@ h1 {
   font-weight: 600;
 }
 
-.teams p {
+.teams .member {
+  width: 85%;
+}
+.teams img {
   color: #868686;
+}
+.teams h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 20px 0px 2px 0px;
+
+  text-align: center;
+
+  color: #04162f;
+}
+.teams p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+  text-align: center;
+
+  color: #868686;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.teams .linkidin {
+  width: 29px;
 }
 
 .contact {
-  background: #8E2EF2;
+  background: #8e2ef2;
+  padding: 28px 0px;
+  margin-top: 100px;
 }
 
 .mt-text {
-  margin-top: 90px;
+  margin-top: 48px;
 }
 
 .mt-90 {
@@ -186,43 +208,21 @@ h1 {
 }
 
 .contact-section input {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 15px;
   margin-top: 20px;
   border-radius: 60px;
-}
-
-.contact-section button {
-  margin-top: 20px;
-  border-radius: 6px;
-  width: 100px;
-  height: 35px;
-  font-size: 10px;
-  text-align: center;
-  border-color: rgb(222, 219, 219);
-  margin-right: 95px;
+  padding: 26px 32px;
 }
 
 .mg-0 {
   margin-right: 0 !important;
 }
 
-.submit-btn button {
-  font-style: normal;
-  width: 130px;
-  height: 35px;
-  border-radius: 60px;
-  font-weight: 800;
-  background-color: #FFDB1D;
-  color: #0F0434;
-  margin-top: 20px;
-  float: left;
-
-}
-.contact-us{
-  background: #FFDB1D;
+.contact-us {
+  background: #ffdb1d;
   border-radius: 60px;
   padding: 12px 23px !important;
   margin: 14px 0px;
@@ -233,7 +233,7 @@ h1 {
 }
 
 .Reviews-section {
-  background-color: #8E2EF2;
+  background-color: #8e2ef2;
   width: 900px;
   height: 400px;
   border-radius: 6px;
@@ -263,4 +263,363 @@ h1 {
   margin-top: 20px;
 }
 
+.home {
+  margin-top: 145px;
+}
+.box-enter .box {
+  width: 254px;
+  height: 292px;
+  background: #ffdb1d;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+  padding-top: 68px;
+  border-radius: 20px;
+}
+.box-enter .box button {
+  width: 159px;
+  background: #8e2ef2;
+  border-radius: 60px;
+  padding: 13px 12px;
+  color: #fff;
+  margin-top: 20px;
+  border: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
 
+  letter-spacing: 0.5px;
+}
+.head {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  /* or 135% */
+
+  text-align: center;
+
+  color: #04162f;
+  margin-bottom: 50px;
+}
+.section-2 img {
+  border-radius: 20px;
+  box-shadow: rgb(142 46 242) 1px 9px 0px;
+  border-collapse: collapse;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #d9d9d9;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  background-color: #8e2ef2;
+}
+.section-2 h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1d0042;
+  margin: 36px 0px 20px 0px;
+}
+.mt-100 {
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.backers {
+  margin-bottom: 85px;
+}
+.backers img {
+  max-width: 100%;
+}
+.carousel-indicators {
+  bottom: -46px !important;
+}
+.outer-testi .title {
+  min-height: 88px;
+  position: relative;
+}
+.outer-testi {
+  position: relative;
+  background: #d9d9d9;
+  border-radius: 10px;
+  padding: 15px 50px;
+}
+.outer-testi .left-icon {
+  position: absolute;
+  bottom: 0px;
+}
+.outer-testi p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  padding-top: 17px;
+  text-align: justify;
+
+  color: #818181;
+}
+.flex {
+  display: flex;
+}
+.relative {
+  position: relative;
+}
+.testi-wrap {
+  margin: 130px 0px;
+}
+.inner-testi {
+  position: absolute;
+  top: -49px;
+  margin: 0px 120px;
+  z-index: 111111;
+  /* min-height: 737px; */
+  background: #8e2ef2;
+  border-radius: 10px;
+  min-height: 338px;
+}
+.inner-testi p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  text-align: justify;
+
+  color: #ffffff;
+
+  margin-top: 19px;
+}
+.inner-testi .name {
+  align-items: center;
+  display: flex;
+  margin-right: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 24px;
+  text-align: right;
+  color: #ffffff;
+}
+.inner-testi .left-icon {
+  bottom: -30px;
+  left: -23px;
+}
+.review {
+  margin: 100px 0px 0px 0px;
+}
+.story {
+  margin: 100px 0px 100px 0px;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+  left: -23%;
+  margin-left: -10px;
+}
+.glyphicon-chevron-left:before {
+  content: "\e079";
+  color: #000;
+}
+.glyphicon-chevron-right:before {
+  color: #000;
+}
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+  right: -21%;
+  margin-right: -10px;
+}
+
+div label input {
+  margin-right: 100px;
+}
+
+.cat {
+  margin: 4px;
+  background-color: #104068;
+  border-radius: 4px;
+  overflow: hidden;
+  float: left;
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+  text-align: center;
+
+  color: #000000;
+  margin: 20px 30px;
+  cursor: pointer;
+}
+
+.cat label {
+  float: left;
+  line-height: 3em;
+  width: 10em;
+  height: 3em;
+}
+
+.cat label span {
+  text-align: center;
+  padding: 3px 0;
+  display: block;
+}
+
+.cat label input {
+  position: absolute;
+  display: none;
+  color: #fff !important;
+}
+/* selects all of the text within the input element and changes the color of the text */
+.cat label input + span {
+  color: #000;
+  cursor: pointer;
+}
+
+/* This will declare how a selected input will look giving generic properties */
+.cat input:checked + span {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+/*
+This following statements selects each category individually that contains an input element that is a checkbox and is checked (or selected) and chabges the background color of the span element.
+*/
+
+.action input:checked + span {
+  background-color: #ffdb1d;
+}
+
+TEXTAREA {
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 27px;
+  height: 136px !important;
+}
+.ml-0 {
+  margin-left: 0px;
+}
+.mr-0 {
+  margin-right: 0px;
+}
+.submit-btn {
+  background: #ffdb1d;
+  box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 60px;
+  padding: 14px 46px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  text-align: center;
+  color: #0f0434;
+  margin-top: 32px;
+}
+.footer {
+  background-color: #000;
+  padding: 36px;
+}
+.footer p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  /* identical to box height, or 145% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.footer .fa {
+  color: #fff;
+}
+.footer a {
+  margin-right: 17px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
+    left: 50%;
+    margin-left: -10px;
+  }
+  .navbar .navbar-brand img {
+    width: 63%;
+  }
+  .navbar .navbar-brand {
+    padding: 0px;
+    margin: 14px 28px;
+  }
+  h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 127%;
+    letter-spacing: -0.5px;
+    color: #04162f;
+    padding: 50px 0px 30px 0px;
+  }
+  .btn {
+    margin-bottom: 30px;
+  }
+  .head {
+    margin-top: 100px;
+  }
+  .tranches img {
+    display: none;
+  }
+  .entrepreneures {
+    padding-right: 0px;
+  }
+  .entre-txt {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .backers img {
+    max-width: 100%;
+    margin: 30px auto;
+  }
+  .backers .col-sm-3 {
+    text-align: center;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+    margin-top: 23px;
+}
+}
