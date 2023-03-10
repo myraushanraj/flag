@@ -70,15 +70,24 @@ span {
   color: #fff;
 }
 
-.btn-blue button {
-  background: #8e2ef2;
-  border: 1px solid #7e2dfc;
-  font-size: 17px;
-  color: #fff;
-  border-radius: 10px;
-  width: 200px;
-  height: 60px;
-  margin-top: 30px;
+.btn-blue li{
+  list-style-type: none;
+}
+.btn-blue a {
+  background: #F0E4FC;
+    border: 1px solid #7e2dfc;
+    font-size: 21px;
+    color: #818181;
+    border-radius: 10px;
+    width: 200px;
+    /* height: 60px; */
+    margin-top: 30px;
+    display: inline-block;
+    padding: 18px;
+
+}
+.btn-blue a:hover{
+  text-decoration: none;
 }
 
 .btn-top {
@@ -104,7 +113,7 @@ h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 72px;
+  font-size: 64px;
   line-height: 130%;
   letter-spacing: -0.5px;
   color: #04162f;
@@ -123,12 +132,14 @@ h1 {
 
 .entrepreneures {
   padding-right: 340px;
+  min-height: 380px;
 }
 
 .entrepreneures p {
   text-align: left;
   color: white;
   margin-top: 12px;
+  font-size: 26px;
 }
 
 .tranches img {
@@ -667,4 +678,8 @@ TEXTAREA {
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: #8E2EF2;
 }
