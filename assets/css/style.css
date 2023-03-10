@@ -30,8 +30,11 @@ span {
 .navbar .navbar-brand img {
   width: 80%;
 }
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
 .navbar li a {
-  color: #fff !important;
+  color: #fff;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -60,7 +63,7 @@ span {
 
 .btn {
   font-size: 17px;
-  background: #e74c3c;
+  background:#096EFA;
   border-radius: 60px;
   width: 155px;
   height: 50px;
@@ -83,10 +86,11 @@ span {
 }
 
 .bg-color-blue {
-  background-color: #8e2ef2;
+  background-color: #FC4E32;
   border-radius: 0px 40px;
   padding: 20px 0px 20px 15px;
 }
+
 
 .list {
   color: #fff61d;
@@ -109,6 +113,11 @@ h1 {
 
 .bg-color {
   background: #fdf6e3;
+  padding: 30px 0px 30px 0px;
+}
+
+.bg-color-yellow {
+  background: #FFDF7F;
   padding: 30px 0px 30px 0px;
 }
 
@@ -136,6 +145,10 @@ h1 {
 .margin-head h2 {
   padding: 45px 0px 45px 0px;
   font-weight: 600;
+}
+
+.image-width {
+  width: 100%;
 }
 
 .teams .member {
@@ -173,6 +186,13 @@ h1 {
 .teams .linkidin {
   width: 29px;
 }
+
+.image {  
+  height: 56px;
+  
+}
+
+
 
 .contact {
   background: #8e2ef2;
@@ -217,6 +237,10 @@ h1 {
   padding: 26px 32px;
 }
 
+.contactHead {
+  color: white !important;
+}
+
 .mg-0 {
   margin-right: 0 !important;
 }
@@ -226,7 +250,10 @@ h1 {
   border-radius: 60px;
   padding: 12px 23px !important;
   margin: 14px 0px;
+  color: #000 !important;
 }
+
+
 
 .max-width {
   max-width: 100%;
@@ -269,7 +296,7 @@ h1 {
 .box-enter .box {
   width: 254px;
   height: 292px;
-  background: #ffdb1d;
+  background:#F4EC2C;
   margin: auto;
   position: absolute;
   top: 25%;
@@ -280,7 +307,7 @@ h1 {
 }
 .box-enter .box button {
   width: 159px;
-  background: #8e2ef2;
+  background:#096EFA;
   border-radius: 60px;
   padding: 13px 12px;
   color: #fff;
@@ -310,9 +337,14 @@ h1 {
 }
 .section-2 img {
   border-radius: 20px;
-  box-shadow: rgb(142 46 242) 1px 9px 0px;
+  box-shadow: rgb(142 46 242) 0px 9px 0px;
   border-collapse: collapse;
 }
+
+.margin-top {
+  margin-top: 50px;
+}
+
 .carousel-indicators li {
   display: inline-block;
   width: 20px;
@@ -550,7 +582,7 @@ TEXTAREA {
   background-color: #000;
   padding: 36px;
 }
-.footer p {
+.footer a {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -567,6 +599,9 @@ TEXTAREA {
 }
 .footer a {
   margin-right: 17px;
+}
+.footer span{
+  color: #fff;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
@@ -625,4 +660,11 @@ TEXTAREA {
 }
 .row{
   margin-right: unset;
+}
+
+.fa-discord:before {
+  content: "\f392";
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
 }
