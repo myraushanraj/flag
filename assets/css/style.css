@@ -10,9 +10,11 @@ h6,
 span {
   font-family: "Montserrat", sans-serif;
 }
+
 .width-100 {
   max-width: 100%;
 }
+
 .navbar {
   margin-bottom: 0;
   background-color: #8e2ef2;
@@ -23,16 +25,20 @@ span {
   letter-spacing: 4px;
   border-radius: 0px;
 }
+
 .navbar .navbar-brand {
   padding: 0px;
   margin: 14px 0px;
 }
+
 .navbar .navbar-brand img {
   width: 80%;
 }
+
 .navbar-default .navbar-nav>li>a {
   color: #fff;
 }
+
 .navbar li a {
   color: #fff;
   font-family: "Poppins";
@@ -63,30 +69,32 @@ span {
 
 .btn {
   font-size: 17px;
-  background:#096EFA;
+  background: #096EFA;
   border-radius: 60px;
   width: 155px;
   height: 50px;
   color: #fff;
 }
 
-.btn-blue li{
+.btn-blue li {
   list-style-type: none;
 }
+
 .btn-blue a {
   background: #F0E4FC;
-    border: 1px solid #7e2dfc;
-    font-size: 21px;
-    color: #818181;
-    border-radius: 10px;
-    width: 200px;
-    /* height: 60px; */
-    margin-top: 30px;
-    display: inline-block;
-    padding: 18px;
+  border: 1px solid #7e2dfc;
+  font-size: 21px;
+  color: #818181;
+  border-radius: 10px;
+  width: 200px;
+  /* height: 60px; */
+  margin-top: 30px;
+  display: inline-block;
+  padding: 18px;
 
 }
-.btn-blue a:hover{
+
+.btn-blue a:hover {
   text-decoration: none;
 }
 
@@ -166,9 +174,11 @@ h1 {
 .teams .member {
   width: 85%;
 }
+
 .teams img {
   color: #868686;
 }
+
 .teams h3 {
   font-family: "Montserrat";
   font-style: normal;
@@ -181,6 +191,7 @@ h1 {
 
   color: #04162f;
 }
+
 .teams p {
   font-family: "Poppins";
   font-style: normal;
@@ -195,13 +206,14 @@ h1 {
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .teams .linkidin {
   width: 29px;
 }
 
-.image {  
+.image {
   height: 56px;
-  
+
 }
 
 
@@ -311,10 +323,11 @@ h1 {
 .home {
   margin-top: 145px;
 }
+
 .box-enter .box {
   width: 254px;
   height: 292px;
-  background:#F4EC2C;
+  background: #F4EC2C;
   margin: auto;
   position: absolute;
   top: 25%;
@@ -323,9 +336,10 @@ h1 {
   padding-top: 68px;
   border-radius: 20px;
 }
+
 .box-enter .box button {
   width: 159px;
-  background:#096EFA;
+  background: #096EFA;
   border-radius: 60px;
   padding: 13px 12px;
   color: #fff;
@@ -340,6 +354,7 @@ h1 {
 
   letter-spacing: 0.5px;
 }
+
 .head {
   font-family: "Montserrat";
   font-style: normal;
@@ -353,6 +368,7 @@ h1 {
   color: #04162f;
   margin-bottom: 50px;
 }
+
 .section-2 img {
   border-radius: 20px;
   box-shadow: rgb(142 46 242) 0px 9px 0px;
@@ -374,12 +390,14 @@ h1 {
   border: 1px solid #fff;
   border-radius: 10px;
 }
+
 .carousel-indicators .active {
   width: 22px;
   height: 22px;
   margin: 0;
   background-color: #8e2ef2;
 }
+
 .section-2 h3 {
   font-family: "Montserrat";
   font-style: normal;
@@ -393,33 +411,41 @@ h1 {
   color: #1d0042;
   margin: 36px 0px 20px 0px;
 }
+
 .mt-100 {
   margin-top: 100px;
   margin-bottom: 120px;
 }
+
 .backers {
   margin-bottom: 85px;
 }
+
 .backers img {
   max-width: 100%;
 }
+
 .carousel-indicators {
   bottom: -46px !important;
 }
+
 .outer-testi .title {
   min-height: 88px;
   position: relative;
 }
+
 .outer-testi {
   position: relative;
   background: #d9d9d9;
   border-radius: 10px;
   padding: 15px 50px;
 }
+
 .outer-testi .left-icon {
   position: absolute;
   bottom: 0px;
 }
+
 .outer-testi p {
   font-family: "Poppins";
   font-style: normal;
@@ -432,15 +458,19 @@ h1 {
 
   color: #818181;
 }
+
 .flex {
   display: flex;
 }
+
 .relative {
   position: relative;
 }
+
 .testi-wrap {
   margin: 130px 0px;
 }
+
 .inner-testi {
   position: absolute;
   top: -49px;
@@ -451,6 +481,7 @@ h1 {
   border-radius: 10px;
   min-height: 338px;
 }
+
 .inner-testi p {
   font-family: "Montserrat";
   font-style: normal;
@@ -465,6 +496,7 @@ h1 {
 
   margin-top: 19px;
 }
+
 .inner-testi .name {
   align-items: center;
   display: flex;
@@ -477,28 +509,35 @@ h1 {
   text-align: right;
   color: #ffffff;
 }
+
 .inner-testi .left-icon {
   bottom: -30px;
   left: -23px;
 }
+
 .review {
   margin: 100px 0px 0px 0px;
 }
+
 .story {
   margin: 100px 0px 100px 0px;
 }
+
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .icon-prev {
   left: -23%;
   margin-left: -10px;
 }
+
 .glyphicon-chevron-left:before {
   content: "\e079";
   color: #000;
 }
+
 .glyphicon-chevron-right:before {
   color: #000;
 }
+
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next {
   right: -21%;
@@ -551,14 +590,15 @@ div label input {
   display: none;
   color: #fff !important;
 }
+
 /* selects all of the text within the input element and changes the color of the text */
-.cat label input + span {
+.cat label input+span {
   color: #000;
   cursor: pointer;
 }
 
 /* This will declare how a selected input will look giving generic properties */
-.cat input:checked + span {
+.cat input:checked+span {
   color: #ffffff;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
 }
@@ -567,7 +607,7 @@ div label input {
 This following statements selects each category individually that contains an input element that is a checkbox and is checked (or selected) and chabges the background color of the span element.
 */
 
-.action input:checked + span {
+.action input:checked+span {
   background-color: #ffdb1d;
 }
 
@@ -577,12 +617,15 @@ TEXTAREA {
   border-radius: 27px;
   height: 136px !important;
 }
+
 .ml-0 {
   margin-left: 0px;
 }
+
 .mr-0 {
   margin-right: 0px;
 }
+
 .submit-btn {
   background: #ffdb1d;
   box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
@@ -596,10 +639,12 @@ TEXTAREA {
   color: #0f0434;
   margin-top: 32px;
 }
+
 .footer {
   background-color: #000;
   padding: 36px;
 }
+
 .footer a {
   font-family: "Poppins";
   font-style: normal;
@@ -612,31 +657,40 @@ TEXTAREA {
 
   color: #ffffff;
 }
+
 .footer .fa {
   color: #fff;
 }
+
 .footer a {
   margin-right: 17px;
 }
-.footer span{
+
+.footer span {
   color: #fff;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
+
 @media only screen and (max-width: 600px) {
+
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     left: 50%;
     margin-left: -10px;
   }
+
   .navbar .navbar-brand img {
     width: 63%;
   }
+
   .navbar .navbar-brand {
     padding: 0px;
     margin: 14px 28px;
   }
+
   h1 {
     font-family: "Montserrat";
     font-style: normal;
@@ -647,46 +701,91 @@ TEXTAREA {
     color: #04162f;
     padding: 50px 0px 30px 0px;
   }
+
   .btn {
     margin-bottom: 30px;
   }
+
   .head {
     margin-top: 100px;
   }
+
   .tranches img {
     display: none;
   }
+
   .entrepreneures {
     padding-right: 0px;
   }
+
   .entre-txt {
     font-size: 20px;
     margin: 20px;
   }
+
   .backers img {
     max-width: 100%;
     margin: 30px auto;
   }
+
   .backers .col-sm-3 {
     text-align: center;
   }
+
   .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
     margin-top: 23px;
+  }
 }
-}
-.row{
+
+.row {
   margin-right: unset;
 }
 
 .fa-discord:before {
   content: "\f392";
 }
+
 .fab {
   font-family: "Font Awesome 5 Brands";
 }
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
   color: #fff;
   background-color: #8E2EF2;
+}
+
+@media screen and (max-width: 600px) {
+  .home {
+    margin-top: 0px;
+  }
+
+  .inner-testi {
+    margin: 0px;
+  }
+  .first-testi {
+    opacity: 0;
+  }
+  .inner-testi{
+    min-height: 590px;
+  }
+  .inner-testi .name{
+    padding-left: 1px;
+  }
+  .contact-section {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+.ml-0{
+  margin-left: 25px;
+}
+.cat label {
+  float: left;
+  line-height: 3em;
+  width: 17em;
+}
 }
