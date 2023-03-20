@@ -494,22 +494,22 @@
           <input class="form-control" placeholder="Your email address" id="email" type="text" required>
 
           <div class="cat action ml-0">
-            <label>
+            <label onclick="onCLick('As School')">
               <input type="checkbox" name="sponsor"><span>As School</span>
             </label>
           </div>
           <div class="cat action">
-            <label>
+            <label onclick="onCLick('Ambassador')">
               <input type="checkbox" name="sponsor"><span>As Ambassador</span>
             </label>
           </div>
           <div class="cat action">
-            <label>
+            <label onclick="onCLick('Investor')">
               <input type="checkbox" name="sponsor"><span>Investor</span>
             </label>
           </div>
           <div class="cat action mr-0">
-            <label>
+            <label onclick="onCLick('Parents/Pupil')">
               <input type="checkbox" name="sponsor"><span>Parents/Pupil</span>
             </label>
           </div>
@@ -528,12 +528,30 @@
       </div>
     </div>
     <script>
-      function submit() {
-        console.log("hgsjfhd");
+      let as;
+      function onCLick(data){
+        as = data;
+        console.log("as", as)
+      }
+      async function submit() {
+        
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
         const comment = document.getElementById('comment').value;
-        console.log("name", name, "email", email, "comment", comment);
+        console.log("name", name, "email", email, "comment", comment, "as", as);
+        const payload = {name, email, comment, as}
+        const rawResponse = await fetch('https://httpbin.org/post', {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(payload)
+  });
+  const content = await rawResponse.json();
+
+  console.log(content);
+       alert("Thanks, We will connect you soon!")
       }
 
     </script>
