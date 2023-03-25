@@ -344,7 +344,16 @@ h1 {
   padding-top: 68px;
   border-radius: 20px;
 }
-
+.avatar img{
+  border-radius: 50%;
+  width: 112px;
+}
+.tranchesWrap h3{
+  min-height: 64px;
+}
+#press .col-sm-3{
+line-height: 133px;
+}
 .box-enter .box button {
   width: 159px;
   background: #096EFA;
@@ -378,7 +387,7 @@ h1 {
   margin-bottom: 50px;
 }
 .bannerText{
-  font-size: 76px;
+  font-size: 70px;
 }
 
 .section-2 img {
@@ -698,6 +707,8 @@ TEXTAREA {
     line-height: 27px;
     text-align: center;
     padding: 23px;
+    min-height: 123px;
+    vertical-align: middle;
 }
 
 @media only screen and (max-width: 600px) {
