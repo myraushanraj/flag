@@ -5,6 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Flagship</title>
+  <meta name="theme-color" content="#8e2ef2" />
+  <!-- Favicon Icon -->
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="assets/image/favicon.png"
+  />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -55,7 +62,7 @@
   <div class="container " id="home">
     <div class="row home">
       <div class="col-sm-6">
-        <h1 class="mt-text">Are you the next disruptor of USA</h1>
+        <h1 class="mt-text bannerText">Are you the next disruptor of USA</h1>
         <button class="btn">Get Started</button>
       </div>
       <div class="col-sm-6">
@@ -79,8 +86,7 @@
       <div class="col-sm-3 btn-blue btn-top col-xs-12">
 
         <ul class="nav-pills">
-          <li class="active"><a data-toggle="pill" href="#stat">Stats</a></li>
-          <li><a data-toggle="pill" href="#objective">Objectives</a></li>
+          <li class="active"><a data-toggle="pill" href="#objective">Objectives</a></li>
           <li><a data-toggle="pill" href="#vision">Vision</a></li>
           <li><a data-toggle="pill" href="#goal">Goals</a></li>
         </ul>
@@ -89,7 +95,7 @@
       <div class="col-sm-8 col-xs-12">
         <div class=" ">
           <div class="tab-content">
-            <div id="stat" class="tab-pane fade in active position-relative">
+            <div id="stat" class="tab-pane fade in position-relative">
               <p class="entre-txt">Stats</p>
 
               <div class="bg-color-blue entrepreneures">
@@ -101,7 +107,7 @@
                 <img src="./assets/image/stats.png">
               </div>
             </div>
-            <div id="objective" class="tab-pane fade">
+            <div id="objective" class="tab-pane fade in active position-relative">
               <p class="entre-txt">Objectives</p>
 
               <div class="bg-color-blue entrepreneures">
@@ -150,7 +156,7 @@
   </div>
   </div>
 
-
+<br/><br/>
   <div class="text-center" id="products">
     <h2 class="head">4 Different Tranches</h2>
 
@@ -419,45 +425,72 @@
         <div class="item active">
 
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 relative">
               <img src="./assets/image/story1.png">
+              <div class="storyoverlay">
+                Sneak peak of flagship entrepreneurship class at DVHS
+              </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 relative">
               <img src="./assets/image/story2.png">
+              <div class="storyoverlay">
+                Sneak peak of flagship entrepreneurship class at DVHS
+              </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 relative">
               <a href="https://www.instagram.com/tv/Cj8wY5nAlCy/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img
                   src="./assets/image/slider3.png"></a>
+                  <div class="storyoverlay">
+                    DVHS embraceing flagship entrepreneurship camp
+                  </div>
             </div>
           </div>
         </div>
         <div class="item">
 
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 relative">
               <img src="./assets/image/story1.png">
+              <div class="storyoverlay">
+                Sneak peak of flagship entrepreneurship class at DVHS
+              </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 relative">
               <img src="./assets/image/story2.png">
+              <div class="storyoverlay">
+                Sneak peak of flagship entrepreneurship class at DVHS
+              </div>
             </div>
             <div class="col-sm-4">
               <a href="https://www.instagram.com/tv/Cj8wY5nAlCy/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img
                   src="./assets/image/slider3.png"></a>
+                  <div class="storyoverlay">
+                    DVHS embraceing flagship entrepreneurship camp
+                  </div>
             </div>
           </div>
         </div>
         <div class="item">
 
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 relative">
               <img src="./assets/image/story1.png">
+              <div class="storyoverlay">
+                Sneak peak of flagship entrepreneurship class at DVHS
+              </div>
             </div>
             <div class="col-sm-4">
               <img src="./assets/image/story2.png">
+              <div class="storyoverlay">
+                Sneak peak of flagship entrepreneurship class at DVHS
+              </div>
             </div>
             <div class="col-sm-4">
               <a href="https://www.instagram.com/tv/Cj8wY5nAlCy/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img
                   src="./assets/image/slider3.png"></a>
+                  <div class="storyoverlay">
+                    DVHS embraceing flagship entrepreneurship camp
+                  </div>
             </div>
           </div>
         </div>
@@ -539,8 +572,15 @@
         const email = document.getElementById('email').value;
         const comment = document.getElementById('comment').value;
         console.log("name", name, "email", email, "comment", comment, "as", as);
-        const payload = {name, email, comment, as}
-        const rawResponse = await fetch('https://httpbin.org/post', {
+
+        var payload = {
+	"name":name,
+	 "email":email,
+	  "sponsor":as,
+	   "message":comment,
+	"website":"flagship"
+};
+        const rawResponse = await fetch('https://api.khubero.com/website/contact', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
