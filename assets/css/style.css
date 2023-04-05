@@ -17,7 +17,7 @@ span {
 
 .navbar {
   margin-bottom: 0;
-  background-color: #8e2ef2;
+  background-color: #17598D;
   z-index: 9999;
   border: 0;
   font-size: 16px !important;
@@ -68,12 +68,16 @@ span {
 }
 
 .btn {
-  font-size: 17px;
-  background: #096EFA;
-  border-radius: 60px;
-  width: 155px;
-  height: 50px;
+  font-size: 35px;
+  background: #8CE58B;
+  border-radius: 10px;
+  font-weight: 700;
+  width: 273px;
+  height: 78px;
   color: #fff;
+  margin-left: 80px;
+  margin-top: -110px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-blue li {
@@ -91,8 +95,8 @@ span {
   display: inline-block;
   padding: 18px;
 
-box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.26);
-border-radius: 15px;
+  box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.26);
+  border-radius: 15px;
 
 }
 
@@ -105,9 +109,7 @@ border-radius: 15px;
 }
 
 .bg-color-blue {
-  background-color: #FC4E32;
-  border-radius: 0px 40px;
-  padding: 20px 0px 20px 15px;
+  background-color: #F1F0EF;
 }
 
 
@@ -130,11 +132,7 @@ h1 {
   padding: 50px 0px 30px 0px;
 }
 
-.bg-color {
-  background: #fdf6e3;
-  padding: 30px 0px 30px 0px;
-  border-radius: 30px;
-}
+
 
 .bg-color-yellow {
   background: #FFDF7F;
@@ -226,7 +224,8 @@ h1 {
 }
 
 .mt-text {
-  margin-top: 48px;
+  padding: 120px 80px;
+
 }
 
 .mt-90 {
@@ -247,7 +246,7 @@ h1 {
   font-weight: 600;
   font-size: 32px;
   line-height: 74px;
-  
+
   color: #000000;
   text-align: left;
 }
@@ -328,7 +327,7 @@ h1 {
 
 
 .home {
-  margin-top: 145px;
+  margin-top: 65px;
 }
 
 .box-enter .box {
@@ -343,16 +342,20 @@ h1 {
   padding-top: 68px;
   border-radius: 20px;
 }
-.avatar img{
+
+.avatar img {
   border-radius: 50%;
   width: 112px;
 }
-.tranchesWrap h3{
+
+.tranchesWrap h3 {
   min-height: 64px;
 }
-#press .col-sm-3{
-line-height: 133px;
+
+#press .col-sm-3 {
+  line-height: 133px;
 }
+
 .box-enter .box button {
   width: 159px;
   background: #096EFA;
@@ -375,17 +378,19 @@ line-height: 133px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
-  line-height: 65px;
-  margin-top:100px;
+  font-size: 38px;
+  line-height: 46px;
+  margin-top: 80px;
+  color: #636161;
   /* or 135% */
 
   text-align: center;
 
-  color: #04162f;
+
   margin-bottom: 50px;
 }
-.bannerText{
+
+.bannerText {
   font-size: 70px;
 }
 
@@ -693,29 +698,40 @@ TEXTAREA {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
-.storyoverlay{
+
+.storyoverlay {
   background: #000;
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-    color: #fff;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 27px;
-    text-align: center;
-    padding: 23px;
-    min-height: 123px;
-    vertical-align: middle;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  padding: 23px;
+  min-height: 123px;
+  vertical-align: middle;
 }
-.checkboxwrap{
+
+.checkboxwrap {
   display: flex;
 }
+
 @media only screen and (max-width: 600px) {
-  .checkboxwrap{
+  .enroll-image img {
+    margin-left: 50px !important;
+    width: 349px;
+}
+.bannerText {
+  font-size: 54px;
+}
+  .checkboxwrap {
     display: unset;
   }
+
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     left: 50%;
@@ -806,44 +822,52 @@ TEXTAREA {
   .inner-testi {
     margin: 0px;
   }
+
   .first-testi {
     opacity: 0;
   }
-  .inner-testi{
+
+  .inner-testi {
     min-height: 590px;
   }
-  .inner-testi .name{
+
+  .inner-testi .name {
     padding-left: 1px;
   }
+
   .contact-section {
     width: 100%;
     margin: auto;
     text-align: left;
-}
-.ml-0{
-  margin-left: 25px;
-}
-.cat label {
-  float: left;
-  line-height: 3em;
-  width: 17em;
-}
-.contact-section input {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  margin-top: 20px;
-  border-radius: 60px;
-  padding: 26px 32px;
-  margin-left: 24px;
-  width: 90%;
-}
-.text-msg TEXTAREA {
-  border-radius: 20px;
-  width: 90%;
-  margin-left: 29px;
-}
+  }
+
+  .ml-0 {
+    margin-left: 25px;
+  }
+
+  .cat label {
+    float: left;
+    line-height: 3em;
+    width: 17em;
+  }
+
+  .contact-section input {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 60px;
+    padding: 26px 32px;
+    margin-left: 24px;
+    width: 90%;
+  }
+
+  .text-msg TEXTAREA {
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 29px;
+  }
 }
 
 
@@ -858,18 +882,22 @@ TEXTAREA {
 
 
 @media only screen and (max-width: 600px) {
+
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
     left: 50%;
     margin-left: -10px;
   }
+
   .navbar .navbar-brand img {
     width: 63%;
   }
+
   .navbar .navbar-brand {
     padding: 0px;
     margin: 14px 28px;
   }
+
   h1 {
     font-family: "Montserrat";
     font-style: normal;
@@ -880,46 +908,197 @@ TEXTAREA {
     color: #04162f;
     padding: 50px 0px 30px 0px;
   }
+
   .btn {
     margin-bottom: 30px;
   }
+
   .head {
     margin-top: 100px;
   }
+
   .tranches img {
     display: none;
   }
+
   .entrepreneures {
     padding-right: 0px;
   }
+
   .entre-txt {
     font-size: 20px;
     margin: 20px;
   }
+
   .backers img {
     max-width: 100%;
     margin: 30px auto;
   }
+
   .backers .col-sm-3 {
     text-align: center;
   }
+
   .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
     margin-top: 23px;
+  }
 }
-}
-.row{
+
+.row {
   margin-right: unset;
 }
 
 .fa-discord:before {
   content: "\f392";
 }
+
 .fab {
   font-family: "Font Awesome 5 Brands";
 }
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
   color: #fff;
   background-color: #8E2EF2;
+}
+
+#about-us {
+  background-image: url(../image/dashboard-image.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+
+.rect-box p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  border-radius: 23px;
+  background: #17598D;
+  width: 284px;
+  height: 342px;
+  color: #FFFFFF;
+  margin-top: 50px;
+  padding-top: 138px;
+  margin: 42px auto;
+}
+
+
+
+.bg-color-gray {
+  background: #F1F0EF;
+  height: 500px;
+}
+
+.thrd-section {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #636161;
+}
+
+.t-margin img {
+  margin-top: 110px;
+}
+
+.pading-text {
+  padding: 190px 80px;
+}
+
+.bold {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-top: 50px;
+}
+
+.gray-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #818181;
+}
+
+.padding-image {
+  padding: 60px 80px;
+}
+
+.img-width img{
+  width: 100%;
+  margin-top: 30px;
+  
+}
+
+
+.img1-t-margin {
+  margin-top: 100px;
+  display: block;
+  margin-left: 128px;
+}
+
+.enroll-image img{
+  margin-top: 130px;
+  margin-left: 223px;
+}
+.accordion {
+  background-color: #eee;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-weight: 700;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.w-100{
+  width: 100%;
+}
+
+.m-17 p{
+  margin-top: 17px;
+}
+.current{
+  font-size: 43px;
+    line-height: 58px;
+    margin-top: 50px;
 }
