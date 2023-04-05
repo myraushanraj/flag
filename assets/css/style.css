@@ -721,8 +721,12 @@ TEXTAREA {
 }
 
 @media only screen and (max-width: 600px) {
+  #about-us {
+    background-image: none !important;
+    
+  }
   .enroll-image img {
-    margin-left: 50px !important;
+    margin-left: 28px !important;
     width: 349px;
 }
 .bannerText {
@@ -993,7 +997,6 @@ TEXTAREA {
 
 .bg-color-gray {
   background: #F1F0EF;
-  height: 500px;
 }
 
 .thrd-section {
