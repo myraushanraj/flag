@@ -720,18 +720,48 @@ TEXTAREA {
   display: flex;
 }
 
+.enroll-image {
+  border-radius: 0px 158px;
+  background: #17598D;
+  width: 854px;
+  margin: 120px auto;
+  text-align: center;
+  height: 165px;
+  border-radius: 0px 158px;
+  background: #17598D;
+  padding: 25px;
+}
+
+.enroll-image p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 66px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.enroll-image a {
+  padding: 6px 40px;
+  background: #FFDB1D;
+  border-radius: 7px;
+  color: #0A0A0A;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 600px) {
   #about-us {
     background-image: none !important;
-    
+
   }
-  .enroll-image img {
-    margin-left: 28px !important;
-    width: 349px;
-}
-.bannerText {
-  font-size: 54px;
-}
+
+
+
+  .bannerText {
+    font-size: 54px;
+  }
+
   .checkboxwrap {
     display: unset;
   }
@@ -874,6 +904,10 @@ TEXTAREA {
   }
 }
 
+.pading-text {
+  padding: 190px 80px;
+}
+
 
 
 
@@ -902,6 +936,32 @@ TEXTAREA {
     margin: 14px 28px;
   }
 
+  .enroll-image {
+    
+    background: #17598D;
+    width: 397px;
+    margin: 120px auto;
+    text-align: center;
+    height: 123px;
+    border-radius: 0px 81px;
+    background: #17598D;
+    padding: 4px;
+  }
+  
+  .enroll-image p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 66px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .pading-text {
+    padding: 10px 80px;
+}
+  
   h1 {
     font-family: "Montserrat";
     font-style: normal;
@@ -1012,9 +1072,7 @@ TEXTAREA {
   margin-top: 110px;
 }
 
-.pading-text {
-  padding: 190px 80px;
-}
+
 
 .bold {
   font-family: 'Montserrat';
@@ -1039,23 +1097,24 @@ TEXTAREA {
   padding: 60px 80px;
 }
 
-.img-width img{
+.img-width img {
   width: 100%;
   margin-top: 30px;
-  
+
 }
 
 
 .img1-t-margin {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   display: block;
-  margin-left: 128px;
+  padding: 80px 30px 0px 30px;
 }
 
-.enroll-image img{
+.enroll-image img {
   margin-top: 130px;
   margin-left: 223px;
 }
+
 .accordion {
   background-color: #eee;
   color: #000000;
@@ -1070,7 +1129,8 @@ TEXTAREA {
   font-weight: 700;
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
   background-color: #ccc;
 }
 
@@ -1093,15 +1153,17 @@ TEXTAREA {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-.w-100{
+
+.w-100 {
   width: 100%;
 }
 
-.m-17 p{
+.m-17 p {
   margin-top: 17px;
 }
-.current{
+
+.current {
   font-size: 43px;
-    line-height: 58px;
-    margin-top: 50px;
+  line-height: 58px;
+  margin-top: 50px;
 }
