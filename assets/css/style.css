@@ -10,11 +10,32 @@ h6,
 span {
   font-family: "Montserrat", sans-serif;
 }
-
+.auto{
+  margin: auto;
+}
 .width-100 {
   max-width: 100%;
 }
+.w-90{
+  width: 70%;
+}
+.world{
+  margin-top: 30px;
+  height: 500px;
+  overflow-y: scroll;
+}
+.world .title::before{
+  content: "• ";
+    font-size: 32px;
+    color: #17598d;
+    padding-top: 35px;
+}
 
+.world .desc{
+  border-left: 1px solid #C3BCBC;
+    margin-left: 5px;
+    padding: 5px 15px 39px 15px;
+}
 .navbar {
   margin-bottom: 0;
   background-color: #17598D;
@@ -30,11 +51,13 @@ span {
   padding: 0px;
   margin: 14px 0px;
 }
+
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 350px;
   perspective: 1000px;
+  
 }
 
 .flip-card-inner {
@@ -44,31 +67,57 @@ span {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 23px;
 }
-
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 23px;
+}
 .flip-card-front {
   background-color: #17598D;
   color: #fff;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: white;
+  background-color: #D3FFD4;
+  color: #000;
   transform: rotateY(180deg);
-}q
+}
+
+.flip-card-front p {
+  text-align: center;
+  padding: 110px 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.flip-card-back p {
+  
+  font-style: normal;
+  text-align: justify;
+  padding: 99px 17px;
+};
+
+
 
 .navbar .navbar-brand img {
   width: 80%;
@@ -320,8 +369,11 @@ h1 {
   padding: 12px 23px !important;
   margin: 14px 0px;
   color: #000 !important;
+  margin-left: 23px !important;
 }
-
+.navbar-brand img{
+  width: 85%;
+}
 
 
 .max-width {
@@ -443,7 +495,7 @@ h1 {
   margin-top: 50px;
 }
 
-.carousel-indicators li {
+.carousel-indicators li  {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -456,10 +508,10 @@ h1 {
 }
 
 .carousel-indicators .active {
-  width: 22px;
-  height: 22px;
-  margin: 0;
-  background-color: #8e2ef2;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  background-color: #17598D !important;
 }
 
 .section-2 h3 {
@@ -475,7 +527,17 @@ h1 {
   color: #1d0042;
   margin: 36px 0px 20px 0px;
 }
+.image9 img {
+  padding: 55px 47px 0px 28px;
+}
 
+.video{
+  margin-top: 20px !important;
+  width: 100%;
+}
+.video video{
+  width: 100%;
+}
 .mt-100 {
   margin-top: 100px;
   margin-bottom: 120px;
@@ -490,7 +552,7 @@ h1 {
 }
 
 .carousel-indicators {
-  bottom: -46px !important;
+  bottom: -65px !important;
 }
 
 .outer-testi .title {
@@ -730,6 +792,11 @@ TEXTAREA {
   margin-right: 17px;
 }
 
+.email p{
+  color: #fff;
+  padding: 1px 168px;
+}
+
 .footer span {
   color: #fff;
 }
@@ -788,26 +855,31 @@ TEXTAREA {
   color: #0A0A0A;
   font-weight: 700;
 }
-.team2nd .col{
+
+.team2nd .col {
   width: 20%;
   float: left;
+  text-align: center;
 
 }
-.team2nd .col img{
+
+.team2nd .col img {
   margin: 20px 0px;
 }
+
 @media only screen and (max-width: 600px) {
   #about-us {
     background-image: none !important;
 
   }
 
-  
 
-  
+
+
 
   .bannerText {
     font-size: 54px;
+    padding: 120px 18px;
   }
 
   .checkboxwrap {
@@ -900,14 +972,25 @@ TEXTAREA {
   .home {
     margin-top: 0px;
   }
-
-  .team2nd .col img{
-    margin: 18px 53px;   
+  .video{
+    margin-top: 20px !important;
+    width: 100%;
+  }
+  .video video{
+    width: 100%;
   }
 
+  .flip-card {
   
+    margin-top: 21px;
+}
+  .team2nd .col img {
+    margin: 18px 0px;
+  }
 
-  .team2nd .col{
+
+
+  .team2nd .col {
     width: 100%;
     float: left;
   }
@@ -996,7 +1079,7 @@ TEXTAREA {
   }
 
   .enroll-image {
-    
+
     background: #17598D;
     width: 345px;
     margin: 120px auto;
@@ -1006,7 +1089,7 @@ TEXTAREA {
     background: #17598D;
     padding: 4px;
   }
-  
+
   .enroll-image p {
     font-family: 'Montserrat';
     font-style: normal;
@@ -1019,8 +1102,8 @@ TEXTAREA {
 
   .pading-text {
     padding: 10px 80px;
-}
-  
+  }
+
   h1 {
     font-family: "Montserrat";
     font-style: normal;
@@ -1101,6 +1184,7 @@ TEXTAREA {
 
 .bg-color-gray {
   background: #F1F0EF;
+  padding: 27px 16px 65px 37px;
 }
 
 .thrd-section {
@@ -1125,7 +1209,7 @@ TEXTAREA {
   font-size: 22px;
   line-height: 27px;
   color: #000000;
-  margin-top: 50px;
+
 }
 
 .gray-text {
@@ -1178,8 +1262,8 @@ TEXTAREA {
   font-weight: 700;
 }
 
-.active,
-.accordion:hover {
+.accordian .active,
+.accordian .accordion:hover {
   background-color: #ccc;
 }
 
@@ -1191,7 +1275,7 @@ TEXTAREA {
   margin-left: 5px;
 }
 
-.active:after {
+.accordian .active:after {
   content: "\2212";
 }
 
