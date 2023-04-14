@@ -873,9 +873,21 @@ TEXTAREA {
 
   }
 
+  .btn {
+    margin-left: 50px;
+  }
 
+  .ini-image img{
+    margin-top: 15px;
+  }
 
+.team2nd img {
+  margin-top: 15px;
+}
 
+.team2nd source {
+  margin-top: 15px;
+}
 
   .bannerText {
     font-size: 54px;
@@ -1082,7 +1094,7 @@ TEXTAREA {
 
     background: #17598D;
     width: 345px;
-    margin: 120px auto;
+    margin: 38px auto;
     text-align: center;
     height: 123px;
     border-radius: 0px 81px;
@@ -1120,7 +1132,7 @@ TEXTAREA {
   }
 
   .head {
-    margin-top: 100px;
+    margin-top: 23px !important;
   }
 
   .tranches img {
