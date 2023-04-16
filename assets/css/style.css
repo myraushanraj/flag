@@ -897,6 +897,10 @@ TEXTAREA {
 
   }
 
+  .alert {
+    font-size: 10px;
+  }
+
   .btn {
     margin-left: 50px;
   }
