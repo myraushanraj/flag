@@ -495,8 +495,9 @@ h1 {
   font-weight: 600;
   font-size: 38px;
   line-height: 46px;
-  margin-top: 80px;
+  padding-top: 120px;
   color: #636161;
+  margin-top: 0px;
   /* or 135% */
 
   text-align: center;
@@ -1251,7 +1252,7 @@ TEXTAREA {
 }
 
 .t-margin img {
-  margin-top: 110px;
+  margin-top: 140px;
 }
 
 
