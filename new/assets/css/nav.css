@@ -1,0 +1,95 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #17598D;
+    z-index: 9999;
+    border: 0;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0px;
+    /* margin-top: 45px; */
+}
+
+.navbar .navbar-brand {
+    padding: 0px;
+    margin: 14px 0px;
+}
+
+.navbar .navbar-brand img {
+    width: 80%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #222121 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.navbar li a {
+font-style: normal;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 0.5px;
+    margin: 14px 0px;
+}
+
+.contact-us {
+    background: #FFDB1D;
+    border-radius: 12px;
+    padding: 12px 23px !important;
+    margin: 14px 0px;
+    color: #17598D !important;
+    margin-left: 23px !important;
+    
+  }
+
+  .navbar-brand img {
+    width: 85%;
+  }
+
+.navbar-default .navbar-nav>li>.contact-us:focus {
+    background: #ffdb1d !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: transparent !important;
+}
+
+.navbar-default .navbar-nav>li>.contact-us:focus {
+    background: #ffdb1d !important;
+}
+
+h2,h1,h3,h4,h5,h6,p,li,a,div{
+    font-family: sans-serif;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .alert {
+        font-size: 10px;
+      }
+}
