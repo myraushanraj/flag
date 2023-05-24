@@ -36,6 +36,11 @@ span {
     margin-left: 5px;
     padding: 5px 15px 39px 15px;
 }
+
+.container-header {
+  padding: 0px 80px;
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #17598D;
