@@ -250,9 +250,10 @@
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
 													<div class="title">
-														<a title="Sweet Rose" 
-															data-rel="prettyPhoto[portfolio]"
-															href="images/Craft-Images/1.jpg">Sweet Rose</a>
+														<a class="trigger"
+														href="javascript:void(0)"></a>
+														<a class="trigger"
+														href="javascript:void(0)">Carrot Orange</a>
 														
 													</div>
 												</div>
@@ -272,9 +273,8 @@
 												</div>
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
-													<div class="title"><a title="Red Tomato"
-														data-rel="prettyPhoto[portfolio]"
-														href="images/Craft-Images/2.jpg">Red Tomato</a></div>
+													<div class="title"><a class="trigger"
+														href="javascript:void(0)">Red Tomato</a></div>
 												</div>
 
 												<!--/ post-footer-->
@@ -292,9 +292,8 @@
 												</div>
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
-													<div class="title"><a title="Carrot Orange"
-														data-rel="prettyPhoto[portfolio]"
-														href="images/Craft-Images/3.jpg">Carrot Orange</a></div>
+													<div class="title"> <a class="trigger"
+														href="javascript:void(0)">Carrot Orange</a></div>
 												</div>
 
 												<!--/ post-footer-->
@@ -312,9 +311,8 @@
 												</div>
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
-													<div class="title"><a title="Pepper-Mint"
-														data-rel="prettyPhoto[portfolio]"
-														href="images/Craft-Images/1.jpg">Pepper-Mint</a></div>
+													<div class="title"> <a class="trigger"
+														href="javascript:void(0)">Pepper-Mint</a></div>
 												</div>
 
 												<!--/ post-footer-->
@@ -332,9 +330,10 @@
 												</div>
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
-													<div class="title"><a title="Lavender" 
-														data-rel="prettyPhoto[portfolio]"
-														href="images/Craft-Images/2.jpg">Lavender</a></div>
+													<div class="title">
+														<a class="trigger"
+														href="javascript:void(0)">Lavender</a>
+													</div>
 												</div>
 
 												<!--/ post-footer-->
@@ -352,9 +351,8 @@
 												</div>
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
-													<div class="title"><a title="Apple Mangosteen"
-														data-rel="prettyPhoto[portfolio]"
-														href="images/Craft-Images/3.jpg">Apple Mangosteen</a></div>
+													<div class="title"> <a class="trigger"
+														href="javascript:void(0)">Apple Mangosteen</a></div>
 												</div>
 
 												<!--/ post-footer-->
@@ -372,9 +370,8 @@
 												</div>
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
-													<div class="title"><a title="Charcoal" 
-														data-rel="prettyPhoto[portfolio]"
-														href="images/Craft-Images/1.jpg">Charcoal</a></div>
+													<div class="title"> <a class="trigger"
+														href="javascript:void(0)">Charcoal</a></div>
 												</div>
 
 												<!--/ post-footer-->
@@ -392,9 +389,8 @@
 												</div>
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
-													<div class="title"><a title="Pineapple Ginger" 
-														data-rel="prettyPhoto[portfolio]"
-														href="images/Craft-Images/2.jpg">Pineapple Ginger</a></div>
+													<div class="title"> <a class="trigger"
+														href="javascript:void(0)">Pineapple Ginger</a></div>
 												</div>
 
 												<!--/ post-footer-->
@@ -411,8 +407,9 @@
 												</div>
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
-													<div class="title"><a class="link"
-															href="portfolio-single-item.html">Blue Pea</a></div>
+													<div class="title">
+															<a class="trigger"
+															href="javascript:void(0)">Blue Pea</a></div>
 												</div>
 
 												<!--/ post-footer-->
@@ -430,9 +427,10 @@
 												</div>
 												<!--/ content-wrapper-->
 												<div class="gallery-text">
-													<div class="title"><a title="Golden Latte" 
-														data-rel="prettyPhoto[portfolio]"
-														href="images/Craft-Images/1.jpg">Golden Latte</a></div>
+													<div class="title">
+														<a class="trigger"
+														href="javascript:void(0)">Golden Latte</a>
+													</div>
 												</div>
 
 												<!--/ post-footer-->
@@ -519,6 +517,25 @@
 		<div class="dark-mask"></div>
 	</div>
 
+	<!-- <button class="trigger">Click the modal!</button> -->
+<div class="modal_custom">
+    <div class="modal-content_custom">
+        <span class="close-button_custom">×</span>
+        <div>
+			<div id="myform" onsubmit="(e)=>{e.preventDefault()}" method="post">
+				<input placeholder="Enter Name" id="name" />
+				<input placeholder="Enter Email Address" id="email" />
+				<input placeholder="Contact Number" id="contact" />
+				<TEXTAREA placeholder="Your Message" id="comment" style="height:72px">
+
+				</TEXTAREA>
+				<button onclick="formsubmit()">Submit</button>
+			</form>
+		</div>
+    </div>
+</div>
+
+
 	<!--[if lt IE 9]>
 		<script src="js/selectivizr-and-extra-selectors.min.js"></script>
 		<![endif]-->
@@ -533,7 +550,62 @@
 	<script type='text/javascript' src='js/jquery.isotope.min.js'></script>
 	<script type='text/javascript' src='js/jquery.flexnav.min.js'></script>
 
+<script>
+	var modal = document.querySelector(".modal_custom");
+var trigger = document.querySelector(".trigger");
+var closeButton = document.querySelector(".close-button_custom");
 
+function toggleModal() {
+    modal.classList.toggle("show-modal_custom");
+}
+
+function windowOnClick(event) {
+    if (event.target === modal) {
+        toggleModal();
+    }
+}
+var htmlValue;
+
+trigger.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+$(document).ready(function(){
+  $(".trigger").click(function(){
+htmlValue  = $(this).text();
+console.log("htmlValue", htmlValue)
+	toggleModal()
+  });
+});
+
+async function formsubmit(e) {
+
+const name = document.getElementById('name').value;
+const email = document.getElementById('email').value;
+const contact = document.getElementById('contact').value;
+const comment = document.getElementById('comment').value;
+console.log("name", name, "email", email, "comment", comment, "as", contact);
+
+var payload = {
+  "name": name,
+  "email": email,
+  "sponsor": contact,
+  "message": htmlValue + "-"+comment,
+  "website": "flagship",
+};
+const rawResponse = await fetch('https://api.khubero.com/website/contact', {
+  method: 'POST',
+  headers: {
+	'Accept': 'application/json',
+	'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(payload)
+});
+const content = await rawResponse.json();
+
+toggleModal();
+console.log(content);
+alert("Thanks, We will connect you soon!")
+}
+</script>
 
 </body>
 
