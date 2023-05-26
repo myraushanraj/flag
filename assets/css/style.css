@@ -898,10 +898,16 @@ TEXTAREA {
 }
 
 @media only screen and (max-width: 600px) {
+  .container-header {
+    padding: 0px 0px;
+}
   #about-us {
     background-image: none !important;
 
   }
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 528px;
+}
 
   .alert {
     font-size: 10px;
