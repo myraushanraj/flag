@@ -523,12 +523,13 @@
         <span class="close-button_custom">×</span>
         <div>
 			<div id="myform" onsubmit="(e)=>{e.preventDefault()}" method="post">
+				<p>Product:- <span id="user_product"></span></p>
 				<input placeholder="Enter Name" id="name" />
 				<input placeholder="Enter Email Address" id="email" />
 				<input placeholder="Contact Number" id="contact" />
-				<TEXTAREA placeholder="Your Message" id="comment" style="height:72px">
+				<input placeholder="Delivery Address" id="address" />
+				<input placeholder="Quantity" id="quantity" type="number" />
 
-				</TEXTAREA>
 				<button onclick="formsubmit()">Submit</button>
 			</form>
 		</div>
@@ -571,6 +572,7 @@ closeButton.addEventListener("click", toggleModal);
 $(document).ready(function(){
   $(".trigger").click(function(){
 htmlValue  = $(this).text();
+document.getElementById("user_product").innerHTML = htmlValue;
 console.log("htmlValue", htmlValue)
 	toggleModal()
   });
@@ -581,14 +583,15 @@ async function formsubmit(e) {
 const name = document.getElementById('name').value;
 const email = document.getElementById('email').value;
 const contact = document.getElementById('contact').value;
-const comment = document.getElementById('comment').value;
-console.log("name", name, "email", email, "comment", comment, "as", contact);
+const quantity = document.getElementById('quantity').value;
+const address = document.getElementById('address').value;
+// console.log("name", name, "email", email, "comment", comment, "as", contact);
 
 var payload = {
   "name": name,
   "email": email,
   "sponsor": contact,
-  "message": htmlValue + "-"+comment,
+  "message": `Product-${htmlValue}, Quantity-${quantity}, Address-${address}`,
   "website": "flagship",
 };
 const rawResponse = await fetch('https://api.khubero.com/website/contact', {
