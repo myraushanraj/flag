@@ -527,9 +527,10 @@
 				<input placeholder="Enter Name" id="name" />
 				<input placeholder="Enter Email Address" id="email" />
 				<input placeholder="Contact Number" id="contact" />
-				<input placeholder="Delivery Address" id="address" />
-				<input placeholder="Quantity" id="quantity" type="number" />
+				<input placeholder="User Address" id="user_address" />
 
+				<input placeholder="Quantity" id="quantity" type="number" />
+				<input placeholder="Delivery Address" id="address" />
 				<button onclick="formsubmit()">Submit</button>
 			</form>
 		</div>
@@ -585,13 +586,15 @@ const email = document.getElementById('email').value;
 const contact = document.getElementById('contact').value;
 const quantity = document.getElementById('quantity').value;
 const address = document.getElementById('address').value;
+const user_address = document.getElementById('user_address').value;
+
 // console.log("name", name, "email", email, "comment", comment, "as", contact);
 
 var payload = {
   "name": name,
   "email": email,
   "sponsor": contact,
-  "message": `Product-${htmlValue}, Quantity-${quantity}, Address-${address}`,
+  "message": `Product-${htmlValue}, Quantity-${quantity},Delivery Address-${address} User Address - ${user_address}`,
   "website": "flagship",
 };
 const rawResponse = await fetch('https://api.khubero.com/website/contact', {
