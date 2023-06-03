@@ -928,6 +928,37 @@ TEXTAREA {
   margin: 20px 0px;
 }
 
+.terms-condition {
+  margin-top: 175px;
+  margin-left: 190px;
+}
+
+.terms-condition h2 {
+  font-weight: 600;
+}
+
+.terms-details {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.terms-details p {
+  font-weight: 500;
+}
+
+.terms-details li {
+  font-weight: 500;
+}
+
+.Restrictions-condition {
+  margin-top: 50px;
+  margin-left: 190px;
+}
+
+.Restrictions-condition h2 {
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 600px) {
   .container-header {
     padding: 0px 0px;
@@ -1145,7 +1176,7 @@ TEXTAREA {
 }
 
 .mt-text {
-   margin-left: 40px;
+  margin-left: 40px;
 }
 
 .mt-text1 {
@@ -1412,4 +1443,27 @@ TEXTAREA {
   font-size: 43px;
   line-height: 58px;
   margin-top: 50px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .terms-condition {
+    margin-top: 150px;
+    margin-left: 20px;
+  }
+
+  .Restrictions-condition {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .terms-details p {
+    font-weight: 500;
+  }
+
+  .terms-details li {
+    font-weight: 500;
+  }
 }
