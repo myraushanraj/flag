@@ -352,7 +352,7 @@ h1 {
 }
 
 .mt-text {
-  margin-top: 180px;
+  margin-top: 150px;
   margin-left: 80px;
   font-weight: 600;
 }
@@ -1034,7 +1034,7 @@ TEXTAREA {
   color: red;
   text-align: left;
   margin-top: 60px;
-  margin-left: 43px;
+  margin-left: 44px;
 }
 
 
@@ -1166,6 +1166,25 @@ TEXTAREA {
 }
 
 @media screen and (max-width: 600px) {
+  .timerwrapper{
+
+  margin-left: 0px;
+}
+.count-down p {
+
+  margin-left: 25px;
+}
+.topsection h2:nth-child(1){
+    margin-top: 140px;
+ 
+}
+.topsection h2{
+font-size: 20px; 
+margin-left: 25px;
+}
+.text-link{
+      margin-left: 24px;
+}
   .home {
     margin-top: 0px;
   }
