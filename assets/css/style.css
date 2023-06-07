@@ -979,6 +979,8 @@ TEXTAREA {
   /* align-items: center;
   justify-content: center; */
   margin-left: 22px;
+  top: 557px;
+  position: absolute;
 }
 .timerwrapper div{
   position: relative;
@@ -1044,9 +1046,18 @@ TEXTAREA {
   }
 
   #about-us {
-    background-image: none !important;
-
+    background-size: contain !important;
+    margin-top: 97px;
+    height: 194px !important;
   }
+  .timerwrapper {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 22px;
+    top: 182px;
+    position: absolute;
+}
 
   .navbar-fixed-bottom .navbar-collapse,
   .navbar-fixed-top .navbar-collapse {
@@ -1383,7 +1394,7 @@ margin-left: 25px;
     margin-top: 35px;
   }
   #aboutUs .head{
-    margin-top: 118px;
+    margin-top: 18px;
   }
 
   .tranches img {
@@ -1435,10 +1446,11 @@ margin-left: 25px;
 }
 
 #about-us {
-  background-image: url(../image/dashboard-image.png);
+  background-image: url(../image/dashboard-image.jpg);
   background-position: top right;
   background-repeat: no-repeat;
   height: 650px;
+  position: relative;
 }
 
 
