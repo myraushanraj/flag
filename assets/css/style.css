@@ -979,7 +979,7 @@ TEXTAREA {
   /* align-items: center;
   justify-content: center; */
   margin-left: 22px;
-  top: 557px;
+  bottom: 35px;
   position: absolute;
 }
 .timerwrapper div{
@@ -1046,9 +1046,9 @@ TEXTAREA {
   }
 
   #about-us {
-    background-size: contain !important;
+    /* background-size: contain !important; */
     margin-top: 97px;
-    height: 194px !important;
+    /* height: 194px !important; */
   }
   .timerwrapper {
     display: flex;
@@ -1178,8 +1178,9 @@ TEXTAREA {
 
 @media screen and (max-width: 600px) {
   .timerwrapper{
-
-  margin-left: 0px;
+    bottom: -84px;
+    position: absolute;
+    left: 5px;
 }
 .count-down p {
 
@@ -1446,13 +1447,16 @@ margin-left: 25px;
 }
 
 #about-us {
-  background-image: url(../image/dashboard-image.jpg);
+  /* background-image: url(../image/dashboard-image.jpg);
   
   background-repeat: no-repeat;
-  height: 650px;
+  height: 650px; */
   position: relative;
 }
-
+#about-us img{
+ width:100%;
+ padding-left: 14px;
+}
 
 
 
