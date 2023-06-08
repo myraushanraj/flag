@@ -1058,6 +1058,16 @@ TEXTAREA {
     top: 182px;
     position: absolute;
 }
+.timerwrapper div div{
+  width: 70px;
+  padding: 12px;
+  background: #8CE58B;
+  border-radius: 6px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
 
   .navbar-fixed-bottom .navbar-collapse,
   .navbar-fixed-top .navbar-collapse {
