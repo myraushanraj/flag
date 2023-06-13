@@ -1057,6 +1057,11 @@ TEXTAREA {
   left: 33px;
 }
 
+.model-details input {
+  margin-top: 10px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   .container-header {
     padding: 0px 0px;
@@ -1206,6 +1211,7 @@ TEXTAREA {
   .timerwrapper{
     bottom: -84px;
     position: absolute;
+    margin-left: -17px;
 }
 #about-us img {
   width: 100%;
@@ -1226,7 +1232,7 @@ margin-left: 25px;
 }
 .bannerTextWrap {
   position: absolute;
-  top: 0;
+  top: -30px;
   left: 33px;
 }
 .text-link{
@@ -1333,8 +1339,8 @@ margin-top: 600px;
 }
 
 .text-link {
-  margin-left: 3px;
-  box-shadow: 9px 10px 16px 0px #17598d;
+  margin-left: -17px;
+  box-shadow: 9px 10px 4px 0px #17598d;
   background-image: linear-gradient(to right, #4fa5f0, #8ce58b);
   border: none;
   color: #fff;
@@ -1348,6 +1354,7 @@ margin-top: 600px;
 }
 .text-link a{
   color: yellow;
+  font-size: 18px;
 }
 .text-link a:hover{
   color: red;
