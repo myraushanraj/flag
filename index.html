@@ -491,19 +491,19 @@
         <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <button type="button" class="close" id="model_close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title">Competition Form Details</h4>
           </div>
           <div class="modal-body model-details">
-            <input placeholder="Full Name" type="name" />
-            <input placeholder="Email Address" type="email" />
-            <input placeholder="Contact No." type="contact no." />
-            <input placeholder="What is your Product?" type="product" />
-            <input placeholder="Stage of your venture?" type="email" />
-            <input placeholder="How do you think flagship can help you?" type="email" />
-            <input placeholder="Why do you think you or your idea is best?" type="email" />
+            <input placeholder="Full Name" type="text" id="name" />
+            <input placeholder="Email Address" type="email" id="email" />
+            <input placeholder="Contact No." type="number" id="contact" />
+            <input placeholder="What is your Product?" type="text" id="product" />
+            <input placeholder="Stage of your venture?" type="text" id="venture_stage" />
+            <input placeholder="How do you think flagship can help you?" type="text" id="help_you" />
+            <input placeholder="Why do you think you or your idea is best?" type="text" id="think_idea" />
             <div class="text-center">
-              <button class="contact-us">Submit</button>
+              <button class="contact-us" onclick="submit()" >Submit</button>
             </div>
           </div>
 
@@ -515,21 +515,27 @@
 
     <script>
       let as;
-      function onCLick(data) {
-        as = data;
-        console.log("as", as)
-      }
+      
       async function submit() {
 
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
-        const comment = document.getElementById('comment').value;
-        console.log("name", name, "email", email, "comment", comment, "as", as);
+        const contact = document.getElementById('contact').value;
+
+        const product = document.getElementById('product').value;
+
+        const venture_stage = document.getElementById('venture_stage').value;
+
+        const help_you = document.getElementById('help_you').value;
+
+        const think_idea = document.getElementById('think_idea').value;
+        const comment=`contact - ${contact}, product - ${product}, venture_stage - ${venture_stage}, flagship help_you - ${help_you}, your idea is best?- ${think_idea}`;
+        
 
         var payload = {
           "name": name,
           "email": email,
-          "sponsor": as,
+          "sponsor": "contact-"+contact,
           "message": comment,
           "website": "flagship"
         };
@@ -544,7 +550,8 @@
         const content = await rawResponse.json();
 
         console.log(content);
-        alert("Thanks, We will connect you soon!")
+        alert("Thanks, We will connect you soon!");
+        document.getElementById("model_close").click();
       }
 
     </script>
