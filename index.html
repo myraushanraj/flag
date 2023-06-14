@@ -102,7 +102,7 @@
         <div class="bannerTextWrap">
           <h1 class="">LEARN, LEAD, LAUNCH!</h1>
           <div class="text-link">
-            <a href="https://calendly.com/flagshiprach/40-minutes-free-entrepreneurship-session" target="_blank">Join
+            <a href="javascript:void(0)"  data-toggle="modal" data-target="#myModal">Join
               Our
               Step into the Spotlight: Get Noticed at the Exciting<span style="color:#fff"> Business Fair Event</span>
               to Fuel Your Dreams: Be Part of the Action at the <span style="color:#fff">Investor Pitch Day!</span> </a>
@@ -498,8 +498,8 @@
             <input placeholder="Full Name" type="text" id="name" />
             <input placeholder="Email Address" type="email" id="email" />
             <input placeholder="Contact No." type="number" id="contact" />
-            <input placeholder="What is your Product?" type="text" id="product" />
-            <input placeholder="Stage of your venture?" type="text" id="venture_stage" />
+            <!-- <input placeholder="What is your Product?" type="text" id="product" /> -->
+            <input placeholder="Stage : idea / bootstrapped/ revenue" type="text" id="venture_stage" />
             <input placeholder="How do you think flagship can help you?" type="text" id="help_you" />
             <input placeholder="Why do you think you or your idea is best?" type="text" id="think_idea" />
             <div class="text-center">
@@ -522,14 +522,14 @@
         const email = document.getElementById('email').value;
         const contact = document.getElementById('contact').value;
 
-        const product = document.getElementById('product').value;
+        // const product = document.getElementById('product').value;
 
         const venture_stage = document.getElementById('venture_stage').value;
 
         const help_you = document.getElementById('help_you').value;
 
         const think_idea = document.getElementById('think_idea').value;
-        const comment=`contact - ${contact}, product - ${product}, venture_stage - ${venture_stage}, flagship help_you - ${help_you}, your idea is best?- ${think_idea}`;
+        const comment=`contact - ${contact}, venture_stage - ${venture_stage}, flagship help_you - ${help_you}, your idea is best?- ${think_idea}`;
         
 
         var payload = {
@@ -649,10 +649,10 @@
     }, 1000);
 
 
-    setTimeout((() => {
-      document.getElementById("modalButton").click();
+    // setTimeout((() => {
+    //   document.getElementById("modalButton").click();
 
-    }), 2000)
+    // }), 2000)
   </script>
 
 

@@ -1363,6 +1363,17 @@ margin-top: 600px;
 
 .text-link {
   margin-left: -17px;
+  /* box-shadow: 9px 10px 4px 0px #17598d; */
+  background-image: linear-gradient(to right, #4fa5f0, #8ce58b);
+  border: none;
+  color: #fff;
+  width: 740px;
+  margin-top: 0px;
+  margin-bottom: 22px;
+}
+
+.text-link:hover {
+  margin-left: -17px;
   box-shadow: 9px 10px 4px 0px #17598d;
   background-image: linear-gradient(to right, #4fa5f0, #8ce58b);
   border: none;
@@ -1375,12 +1386,11 @@ margin-top: 600px;
   font-size: 22px;
     font-weight: 600;
 }
-.text-link a{
+.text-link a, .text-link a:hover{
   color: yellow;
   font-size: 18px;
 }
 .text-link a:hover{
-  color: red;
   text-decoration: none;
 }
 .blink {
