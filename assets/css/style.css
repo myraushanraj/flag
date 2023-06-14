@@ -49,7 +49,7 @@ span {
 .navbar {
   margin-bottom: 0;
   background-color: #17598D;
-  z-index: 9999;
+  z-index: 11;
   border: 0;
   font-size: 16px !important;
   line-height: 1.42857143 !important;
@@ -171,7 +171,7 @@ span {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 28px;
   /* identical to box height */
 
@@ -181,14 +181,27 @@ span {
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-  color: #222121 !important;
-  background-color: #fff !important;
+  color: #fff !important;
+  background-color: #0b0b0b00 !important;
 }
+
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
   color: #fff !important;
 }
+
+.dropdown-menu {
+  background-color: #17598D !important;
+  border: 1px solid #17598D;
+}
+
+.dropdown-menu li:hover 
+{background-color: #f1f1f1}
+
+.dropdown-menu li a:hover 
+{color: #17598D !important}
+
 
 .container-fluid {
   padding: 60px 50px;
@@ -343,6 +356,9 @@ h1 {
 
 }
 
+.ml-4 {
+  margin-left: 16px !important;
+}
 
 
 .contact {
@@ -425,7 +441,6 @@ h1 {
   padding: 12px 23px !important;
   margin: 14px 0px;
   color: #000 !important;
-  margin-left: 23px !important;
 }
 
 .navbar-brand img {
@@ -1060,6 +1075,9 @@ TEXTAREA {
 .model-details input {
   margin-top: 10px;
   width: 100%;
+  padding: 7px 4px;
+  font-size: 17px;
+  border-radius: 8px;
 }
 
 @media only screen and (max-width: 600px) {
