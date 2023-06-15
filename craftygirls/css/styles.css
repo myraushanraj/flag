@@ -464,15 +464,15 @@ nav {
 }
 
 .left-border {
-    border-left: 1px solid black;
+	border-left: 1px solid black;
 	margin-left: 154px;
 }
 
 .flagship-logo-ml-25 img {
-	
+
 	margin-top: -20px !important;
-    margin-left: -55px !important;
-    padding-left: 24px;
+	margin-left: -55px !important;
+	padding-left: 24px;
 }
 
 .logo-text p {
@@ -1081,10 +1081,31 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 @media screen and (max-width: 767px) {
 
+	.left-border {
+		border-left: 1px solid black;
+		margin-left: 154px;
+	}
+
+	.flagship-logo-ml-25 img {
+		width: 73%;
+		margin-top: -20px !important;
+		margin-left: -14px !important;
+		padding-left: 24px;
+	}
+
+	.logo-text p {
+		color: black;
+		font-size: 12px;
+		font-weight: 600;
+		margin-left: 25px;
+	}
+
 	#kids_header #kids_logo_block,
 	#kids_main_nav {
 		float: none !important;
-		text-align: center;
+		/* text-align: center; */
+		width: 55%;
+		/* margin-top: 30px; */
 	}
 
 	#kids_main_nav .menu-button {
