@@ -193,8 +193,17 @@ ul {
 ol {
 	list-style-type: decimal !important;
 }
+#kids_logo_block{
+	display: flex;
+}
+.menu-button{
+	margin-left: 100px!important;
+}
+.power{
+	text-align: center;
+    color: #000;
 
-
+}
 q {
 	font-style: italic;
 	quotes: "\00ab" "\00bb";
@@ -465,7 +474,6 @@ nav {
 
 .left-border {
 	border-left: 1px solid black;
-	margin-left: 154px;
 }
 
 .flagship-logo-ml-25 img {
@@ -1083,7 +1091,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 	.left-border {
 		border-left: 1px solid black;
-		margin-left: 154px;
 	}
 
 	.flagship-logo-ml-25 img {
@@ -10502,5 +10509,14 @@ only screen and (min-device-pixel-ratio: 1.5) {
 		padding: 1rem 1.5rem;
 		width: 82%;
 		border-radius: 0.5rem;
+	}
+	.flagship-logo img{
+		width: 50%!important;
+	}
+	.power{
+		text-align: center;
+		color: #000;
+		margin: 0px;
+		margin-top: -7px;
 	}
 }

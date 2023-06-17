@@ -1,0 +1,186 @@
+  /* nav section start */
+
+  .navbar-brand img {
+    width: 18%;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0px;
+  }
+
+  .navbar .navbar-brand {
+    padding: 0px;
+    margin: 20px 0px;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    color: black;
+  }
+
+  .navbar li a {
+    color: #fff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 0.5px;
+    margin: 24px 0px;
+  }
+
+  .navbar-nav li a:hover,
+  .navbar-nav li.active a {
+    color: #004e98 !important;
+    background-color: #fff !important;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+  .booking-button {
+  
+  
+    border-radius: 3px;
+    background-color: #004e98;
+    color: white !important;
+    font-size: 18px;
+    border: 1px solid #004e98;
+  }
+
+  /* nav section end */
+
+  /* first section start */
+  .camp-head {
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 100px;
+    line-height: 1.3;
+  }
+
+  .camp-dec {
+    font-size: 19px;
+  }
+
+  .launching-text-link a {
+    background-color: #004e98;
+    color: #fff;
+    padding: 14px 20px;
+    font-size: 17px;
+    border-radius: 3px;
+  }
+
+  .launching-text-link {
+    margin-top: 45px;
+  }
+
+  .chocretaceous-image img {
+    width: 100%;
+    border-radius: 17px;
+    margin-top: 73px;
+    box-shadow: 0 0 52px 23px rgba(0, 0, 0, .5);
+  }
+
+  /* second section start */
+
+  .heading-Chocolate-Jurassic h2 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .elementor-divider {
+    /* text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; */
+  }
+
+  hr .elementor-divider-separator {
+    border-top: 3px solid #a11010;
+  }
+
+  .chocolate-image img {
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .piece-story h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 105px;
+    margin-bottom: 25px;
+  }
+
+  .piece-story p {
+    color: #9a9696;
+
+  }
+
+  .botom-border {
+    border-bottom: 2px solid #004e98;
+    width:150px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #myCarousel{
+    margin-top: 10px;
+  }
+
+  .carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+  }
+
+  .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 1px;
+    background-color: #7b1f1f !important;
+    border: #7b1f1f;
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+
+    .navbar-brand img {
+      width: 24%;
+      margin-top: -59px;
+    }
+
+    .camp-head {
+      font-size: 40px;
+      margin-top: -13px;
+    }
+
+    .botom-border {
+      border-bottom: 2px solid #004e98;
+    }
+
+    .heading-Chocolate-Jurassic h2 {
+      font-size: 33px;
+    }
+
+
+
+    }
