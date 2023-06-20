@@ -40,6 +40,21 @@
 
     gtag('config', 'G-S99ESM1J7S');
   </script>
+
+  <!-- Taboola Pixel Code -->
+<script type='text/javascript'>
+  window._tfa = window._tfa || [];
+  window._tfa.push({notify: 'event', name: 'page_view', id: 1563249});
+  !function (t, f, a, x) {
+         if (!document.getElementById(x)) {
+            t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+         }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/unip/1563249/tfa.js',
+  'tb_tfa_script');
+</script>
+<!-- End of Taboola Pixel Code -->
 </head>
 
 <body>
@@ -103,7 +118,7 @@
         <div class="bannerTextWrap w-100">
           <h1 class="hidden">LEARN, LEAD, LAUNCH!</h1>
           <div class="text-link hidden">
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Join
+            <a href="javascript:void(0)">Join
               Our
               Step into the Spotlight: Get Noticed at the Exciting<span style="color:#fff"> Business Fair Event</span>
               to Fuel Your Dreams: Be Part of the Action at the <span style="color:#fff">Investor Pitch Day!</span> </a>
@@ -139,8 +154,11 @@
   </div>
   <div id="secondsection">
     <div class="row">
-      <div class="col-12 mobile-width">
-        <img src="./assets//image/section2.jpg" class="w-100" alt="flagshipbanner" />
+      <div class="col-12 mobile-width relative">
+        <img src="./assets/image/flag-banner-competition.png" class="w-100" alt="flagshipbanner" />
+        <a href="javascript:void(0)" class="register-btn"  data-toggle="modal" data-target="#myModal">
+          <img src="./assets/image/register_btn.png" />
+        </a>
       </div>
     </div>
   </div>
@@ -633,7 +651,7 @@
 
     // timer code start
     // Set the date we're counting down to
-    var countDownDate = new Date("July 15, 2023 00:00:00").getTime();
+    var countDownDate = new Date("July 22, 2023 00:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {

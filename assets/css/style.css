@@ -14,7 +14,14 @@ span {
 .topsection {
   margin-top: 35px;
 }
-
+.relative{
+  position: relative;
+}
+.register-btn{
+  position: absolute;
+  left: 65px;
+  bottom: 38px;
+}
 .auto {
   margin: auto;
 }
@@ -581,7 +588,7 @@ h1 {
   line-height: 46px;
   padding-top: 0px;
   color: #636161;
-  margin-top: 0px;
+  margin-top: 30px;
   /* or 135% */
 
   text-align: center;
@@ -1128,8 +1135,16 @@ TEXTAREA {
 }
 
 @media only screen and (max-width: 600px) {
+  .register-btn{
+    position: absolute;
+    left: 15px;
+    bottom: 1px;
+  }
+  .register-btn img{
+    width: 100px;
+  }
   .model-details input {
-    font-size: 15px;
+    font-size: 12px;
   }
   #secondsection{
     margin-top: 150px;
@@ -1741,6 +1756,7 @@ TEXTAREA {
 .mobile-width {
   width: 87%;
   margin: auto;
+  margin-top: 15px;
 }
 
 .m-17 p {

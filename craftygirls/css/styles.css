@@ -1067,8 +1067,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 #kids_header #kids_logo_block {
 	margin: -7px 0 15px;
-	position: relative;
-	z-index: 1;
+	position: absolute;
+	z-index: 1111111;
 }
 
 #kids_header #kids_logo_block img {
@@ -1545,6 +1545,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	position: relative;
 	z-index: 995;
 	text-align: left;
+	margin-top: 72px;
 }
 
 #kids_main_nav ul li {
