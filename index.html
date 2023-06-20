@@ -92,7 +92,7 @@
   <div class="" id="about-us">
     <div class="row home">
       <div class="col-12 topsection">
-        <img src="./assets//image/dashboard-image.jpeg" alt="flagshipbanner" />
+        <img src="./assets/image/banner-top.png" alt="flagshipbanner" />
         <!-- <h2 class="mt-text">Accelerate your kid’s entrepreneurial <br /> journey with Flagship.club</h2>
         <h2 class="mt-text1">A Business Launch Platform for Students <br />in the USA </h2>
         <div class="count-down">
@@ -103,12 +103,13 @@
         <div class="bannerTextWrap w-100">
           <h1 class="hidden">LEARN, LEAD, LAUNCH!</h1>
           <div class="text-link hidden">
-            <a href="javascript:void(0)"  data-toggle="modal" data-target="#myModal">Join
+            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Join
               Our
               Step into the Spotlight: Get Noticed at the Exciting<span style="color:#fff"> Business Fair Event</span>
               to Fuel Your Dreams: Be Part of the Action at the <span style="color:#fff">Investor Pitch Day!</span> </a>
           </div>
-          <p class="student hidden">A Business LAUNCH Platform for students<br /> Where Rising Studentpreneurs Thrive</p>
+          <p class="student hidden">A Business LAUNCH Platform for students<br /> Where Rising Studentpreneurs Thrive
+          </p>
 
           <div class="timerwrapper" id="timer">
             <!-- <div><span>01</span><br />DAYS</div>
@@ -116,7 +117,15 @@
             <div><span>01</span><br />MINUTES</div>
             <div><span>01</span><br />SECONDS</div> -->
           </div>
+          <p class="join-us">Youth Join Us in Unveiling</p>
+          <p class="text-center">
+          <button class="big-startup" data-toggle="modal" data-target="#myModal">the next big startup</button>
+        </p>
+          <h2 class="join-us join-us-mobile">of the United States</h2>
         </div>
+
+       
+
 
 
 
@@ -132,8 +141,8 @@
     <div class="row">
       <div class="col-12 mobile-width">
         <img src="./assets//image/section2.jpg" class="w-100" alt="flagshipbanner" />
-        </div>
-        </div>
+      </div>
+    </div>
   </div>
   <div>
     <div class=" text-center" id="aboutUs">
@@ -512,7 +521,7 @@
             <input placeholder="How do you think flagship can help you?" type="text" id="help_you" />
             <input placeholder="Why do you think you or your idea is best?" type="text" id="think_idea" />
             <div class="text-center">
-              <button class="contact-us" onclick="submit()" >Submit</button>
+              <button class="contact-us" onclick="submit()">Submit</button>
             </div>
           </div>
 
@@ -524,7 +533,7 @@
 
     <script>
       let as;
-      
+
       async function submit() {
 
         const name = document.getElementById('name').value;
@@ -538,13 +547,13 @@
         const help_you = document.getElementById('help_you').value;
 
         const think_idea = document.getElementById('think_idea').value;
-        const comment=`contact - ${contact}, venture_stage - ${venture_stage}, flagship help_you - ${help_you}, your idea is best?- ${think_idea}`;
-        
+        const comment = `contact - ${contact}, venture_stage - ${venture_stage}, flagship help_you - ${help_you}, your idea is best?- ${think_idea}`;
+
 
         var payload = {
           "name": name,
           "email": email,
-          "sponsor": "contact-"+contact,
+          "sponsor": "contact-" + contact,
           "message": comment,
           "website": "flagship"
         };
