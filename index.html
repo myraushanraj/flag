@@ -692,6 +692,14 @@
     //   document.getElementById("modalButton").click();
 
     // }), 2000)
+
+    $('.navbar-right li a').click(function() { 
+      var menuName = $(this).html();
+      if(menuName.includes("Product")){
+        return
+      }
+        $(".navbar-collapse").removeClass("in");
+    });
   </script>
 
 
