@@ -400,6 +400,9 @@ video {
   box-shadow: 7px 12px 15px 0px gray;
 }
 @media only screen and (max-width: 700px) {
+  .col-md-3 img{
+    margin-top: 20px;
+  }
   .camp-head {
     font-size: 41px;
     font-weight: 600;
