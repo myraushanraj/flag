@@ -202,7 +202,12 @@ ol {
 .power{
 	text-align: center;
     color: #000;
+	margin: 0px;
 
+}
+.flagLogo{
+	width: 81%;
+    padding-left: 5px;
 }
 q {
 	font-style: italic;
@@ -1069,8 +1074,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	margin: -7px 0 15px;
 	position: absolute;
 	z-index: 1111111;
+	top:30px
 }
-
+#kids_header #kids_logo_block a{
+	width: 33%;
+}
 #kids_header #kids_logo_block img {
 	max-width: 218px;
 }
@@ -10501,6 +10509,13 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 
 @media only screen and (max-width: 600px) {
+	#kids_logo_block {
+		
+		top: 69px !important;
+	}
+	#kids_logo_block a {
+		width: 46% !important;
+	}
 	.modal-content_custom {
 		position: absolute;
 		top: 50%;
@@ -10512,7 +10527,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 		border-radius: 0.5rem;
 	}
 	.flagship-logo img{
-		width: 50%!important;
+		width: 86%!important;
 	}
 	.power{
 		text-align: center;
