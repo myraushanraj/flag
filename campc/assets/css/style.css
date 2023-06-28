@@ -158,7 +158,16 @@
     border: #7b1f1f;
   }
 
-
+  /* .video {
+    margin-top: 20px !important;
+    width: 100%;
+  } */
+  
+  .video video {
+    width: 100%;
+    /* margin-left: 192px; */
+    margin-top: 172px;
+  }
 
 
   @media only screen and (max-width: 600px) {
@@ -181,6 +190,11 @@
       font-size: 33px;
     }
 
+    .video video {
+      width: 70%;
+      margin-left: 48px;
+      margin-top: 40px;
+    }
 
 
     }
