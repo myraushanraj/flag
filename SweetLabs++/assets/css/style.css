@@ -248,7 +248,7 @@ then set the desired styles for .card-img. */
 }
 
 .card-subtitle {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 400;
   color: var(--font-color-sub);
 }
@@ -311,7 +311,7 @@ then set the desired styles for .card-img. */
 }
 .order{
   margin: auto;
-    background: #281413;
+    background: #fb8006;
     color: #fff;
     width: 132px;
     text-align: center;
@@ -394,21 +394,33 @@ then set the desired styles for .card-img. */
 }
 
   
-/* video {
+video {
   width: 100%;
   border: 1px solid #ddd;
   box-shadow: 7px 12px 15px 0px gray;
-} */
+}
 
-  
-  .video video {
-    width: 100%;
-        margin-top: 55px;
-  }
+.w-100{
+  width: 100%;
+}
+.gallery-image{
+  overflow: hidden;
+}
+.gallery-image img {
+
+	-webkit-transition: .3s ease-in-out;
+	transition: .6s ease-in-out;
+}
+
+.gallery-image img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+} 
+.galleryWrap .col-md-2, .galleryWrap .col-xs-2{
+  margin-top: 20px;
+  overflow: hidden;
+}
 @media only screen and (max-width: 700px) {
-  .col-md-3 img{
-    margin-top: 20px;
-  }
   .camp-head {
     font-size: 41px;
     font-weight: 600;
@@ -420,5 +432,9 @@ then set the desired styles for .card-img. */
   }
   .carousel-indicators {
     top: 296px;
+}
+
+.m-t-20 img{
+  margin-top: 20px;
 }
 }

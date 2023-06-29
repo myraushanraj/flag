@@ -1174,10 +1174,14 @@ TEXTAREA {
   padding: 20px;
   text-align: center;
 }
+.price li:nth-child(3){
+  min-height: 260px;
+}
 
 .price .grey {
   background-color: #eee;
   font-size: 20px;
+  font-weight: 500;
 }
 
 .button {
