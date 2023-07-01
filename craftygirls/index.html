@@ -25,6 +25,7 @@
 	<script type='text/javascript' src='tuner/js/scripts.js'></script>
 	<script type="text/javascript" src="revslider/jquery.themepunch.revolution.min.js"></script>
 	<script type="text/javascript" src="revslider/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="../product.js"></script>
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1QT0WZD8NV">
 	</script>
@@ -269,7 +270,7 @@
 									<h3 class="section-title">Our Products</h3>
 									<div class="portfolio iso-column iso-four-column">
 
-										<div class="grid isotope" data-ppp="8" data-cols="954">
+										<div class="grid isotope" data-ppp="8" data-cols="954" id="productWrap">
 
 											<div data-categories="tangled " class="tangled iso-item">
 												<div class="content-wrapper">
@@ -646,6 +647,46 @@
 				console.log(content);
 				alert("Thanks, We will connect you soon!")
 			}
+
+
+
+			console.log("product", productList)
+
+			let productHtml = '';
+			const craftyList = productList.craftyGirl;
+			for(let i = 0; i<craftyList.length;i++){
+				productHtml +=`<div data-categories="tangled " class="tangled iso-item">
+												<div class="content-wrapper">
+													<figure>
+														<a title="Sweet Rose" class="prettyPhoto kids_picture"
+															data-rel="prettyPhoto[portfolio]"
+															href="images/Craft-Images/${craftyList[i].image}"><img
+																src='images/Craft-Images/${craftyList[i].image}' width='278' height='182'
+																alt='' /></a>
+													</figure>
+												</div>
+												<!--/ content-wrapper-->
+												<div class="gallery-text">
+													<div class="title">
+														<a class="trigger" href="javascript:void(0)"></a>
+														<a class="trigger" href="javascript:void(0)">${craftyList[i].name} &nbsp;&nbsp;($${craftyList[i].price})</a>
+
+													</div>
+													<form name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
+													 <input type = "hidden" name = "LinkId" value =${craftyList[i].gateway} />
+													  <input style="margin:auto" type = "image" src ="http://content.authorize.net/images/buy-now-gold.gif" />
+													   </form>
+												</div>
+												<div style="text-align:center">
+												
+											</div>
+												<!--/ post-footer-->
+												<div class="kids_clear"></div>
+											</div>`;
+			}
+
+			document.getElementById("productWrap").innerHTML = productHtml;
+
 		</script>
 
 </body>
