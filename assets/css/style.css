@@ -1174,8 +1174,10 @@ TEXTAREA {
   padding: 20px;
   text-align: center;
 }
-.price li:nth-child(3){
-  min-height: 260px;
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
 }
 
 .price .grey {
