@@ -50,6 +50,19 @@
   color: #fff !important;
 }
 
+.dropdown-menu {
+  background-color: #17598D !important;
+  border: 1px solid #17598D;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown-menu li a:hover {
+  color: #17598D !important
+}
+
 .contact-us {
   background: #ffdb1d;
   border-radius: 60px;
@@ -355,13 +368,49 @@
 
 
 @media screen and (max-width: 700px) {
+  .contact-us {
+    display: inline-block !important;
+  }
+  
   .home {
     margin-top: 0px;
   }
 
+  .navbar-fixed-bottom .navbar-collapse,
+  .navbar-fixed-top .navbar-collapse {
+    max-height: 528px;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+    margin-top: 23px;
+  }
+
+  .navbar .navbar-brand img {
+    width: 63%;
+  }
+
+  /* .navbar .navbar-brand {
+    padding: 0px;
+    margin: 14px 28px;
+  } */
+
+  /* .dropdown-menu {
+    background-color: #17598D !important;
+    border: 1px solid #17598D;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #f1f1f1
+  } */
+  
+  .dropdown-menu-mobile li a {
+    color: #fff;
+  }
+
   .topsection h2:nth-child(1) {
     margin-top: 140px;
-
   }
 
   .topsection {
@@ -411,16 +460,6 @@
   .m-t-mobile {
     margin-top: 25px;
   }
-
-  /* .Market-btn {
-    border-radius: 40px;
-    border: 1px solid #17598D;
-    background: #D4ECFF;
-    padding: 26px 38px;
-    color: #000;
-    font-weight: 700;
-    font-size: 20px;
-} */
 
   .mobile-btn {
     padding: 23px 37px;

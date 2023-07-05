@@ -33,8 +33,6 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li> <a class="booking-button" type="button">Advance Booking Open</a></li>
-
-
                 </ul>
             </div>
         </div>
@@ -78,32 +76,66 @@
         </div>
 
         <div class="heading-Chocolate-Jurassic ">
-            <h2>Dive into the Chocolate Jurassic</h2>
+            <h2>Shop Now</h2>
             <div class="botom-border"></div>
         </div>
 
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="piece-story">
-                        <h3>Journey Back In Time</h3>
-                        <p>With each bite of Camp Chocretaceous, journey back in time to the age of dinosaurs.</p>
-                        <p>Every chocolate piece is meticulously crafted to replicate the rough, grandeur texture of
-                            dinosaurs, making your taste experience truly one-of-a-kind.</p>
+                    <div class="card">
+                        <img src="./assets/image/trex.jpeg" />
+                        <h3>T-Rex Dark Delight: </h3>
+                        <p>A dark chocolate masterpiece molded into the fierce shape of the Tyrannosaurus Rex, offering
+                            a rich, bold flavor for the fearless chocolate lover.</p>
+                        </p>
+                        <a type="button" onclick="getItem('T-Rex Dark Delight')" data-toggle="modal" data-target="#myModal"
+                            class="order ">Order Now</a>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="piece-story">
-                        <h3>Each Piece Tells A Story</h3>
-                        <p>Savor the unique flavor profiles of our fine chocolates as they melt in your mouth.</p>
-                        <p>Each piece tells a story - a story of adventurous flavor, distinctive texture, and a
-                            celebration
-                            of the mighty dinosaurs.</p>
+                    <div class="card">
+                        <img src="./assets/image/triceratops.jpeg" />
+                        <h3>Triceratops Nutty Treat:</h3>
+                        <p>A milk chocolate Triceratops packed with crushed almonds, creating a crunchy texture in every
+                            bite, similar to the dinosaur's three-horned facade. </p>
+                        <a type="button" onclick="getItem('Triceratops Nutty Treat')" data-toggle="modal" data-target="#myModal"
+                            class="order ">Order Now</a>
+
+
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="chocolate-image">
-                        <img src="./assets/image/chocolate-image.jpeg">
+                    <div class="card">
+                        <img src="./assets/image/pterodacty.jpeg" />
+                        <h3>Pterodactyl Mint Mystique: </h3>
+                        <p>Crafted in the shape of the winged Pterodactyl, this chocolate delivers a refreshing
+                            peppermint twist amidst the creamy milk chocolate, giving your taste buds a flight of
+                            flavor. </p>
+                        <a type="button" onclick="getItem('Pterodactyl Mint Mystique')" data-toggle="modal" data-target="#myModal"
+                            class="order ">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/image/orange.jpeg" />
+                        <h3>Stegosaurus Orange Odyssey: </h3>
+                        <p>A white chocolate creation resembling the unique Stegosaurus, blended with natural orange
+                            zest, taking you on a tangy, sweet adventure reminiscent of the dinosaur's distinctive
+                            plates.</p>
+                        <a type="button" onclick="getItem('Stegosaurus Orange Odyssey')" data-toggle="modal"
+                            data-target="#myModal" class="order ">Order Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./assets/image/burst.jpeg" />
+                        <h3>Brachiosaurus Berry Burst: </h3>
+                        <p>This milk chocolate Brachiosaurus hides a surprise center of mixed berry jam, delivering a
+                            sweet, tart explosion of flavor, mirroring the surprising size and height of the gentle
+                            giant itself.</p>
+                        <a type="button" onclick="getItem('Brachiosaurus Berry Burst')" data-toggle="modal"
+                            data-target="#myModal" class="order ">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -116,15 +148,15 @@
 
         <!-- <div class="">
             <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
-                <!-- Indicators -->
-                <!-- <ol class="carousel-indicators">
+        <!-- Indicators -->
+        <!-- <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
                 </ol> -->
 
-                <!-- Wrapper for slides -->
-                <!-- <div class="carousel-inner">
+        <!-- Wrapper for slides -->
+        <!-- <div class="carousel-inner">
                     <div class="item active">
                         <div class="row">
                             <div class="col-md-4">
@@ -139,7 +171,7 @@
                         </div>
                     </div> -->
 
-                    <!-- <div class="item">
+        <!-- <div class="item">
                         <div class="row">
                             <div class="col-md-4">
                                 <img src="./assets/image/image2.png" width="100%">
@@ -153,7 +185,7 @@
                         </div>
                     </div> -->
 
-                    <!-- <div class="item">
+        <!-- <div class="item">
                         <div class="row">
                             <div class="col-md-4">
                                 <img src="./assets/image/image3.jpg" width="100%">
@@ -177,29 +209,249 @@
             </div>
             <div class="row">
                 <div class="col-md-2 col-xs-6">
-                    <div class="gallery-image">
+                    <div class="gallery-image m-t-20">
                         <img src="./assets/image/galllery/image1.png" class="w-100">
                     </div>
                 </div>
                 <div class="col-md-2 col-xs-6">
-                    <div class="gallery-image">
-                        <img src="./assets/image/galllery/image2.png" class="w-100">
+                    <div class="gallery-image m-t-20">
+                        <img src="./assets/image/galllery/image5.jpeg" class="w-100" height="157px">
                     </div>
                 </div>
                 <div class="col-md-2 col-xs-6">
                     <div class="gallery-image m-t-20">
-                        <img src="./assets/image/galllery/image3.jpg" class="w-100">
+                        <img src="./assets/image/galllery/image15.jpeg" class="w-100" height="157px">
                     </div>
                 </div>
-                
+                <div class="col-md-2 col-xs-6">
+                    <div class="gallery-image m-t-20">
+                        <img src="./assets/image/galllery/image11.jpeg" class="w-100" height="157px">
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <div class="gallery-image m-t-20">
+                        <img src="./assets/image/galllery/image7.jpeg" class="w-100" height="157px">
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <div class="gallery-image m-t-20">
+                        <img src="./assets/image/galllery/image6.jpeg" class="w-100" height="157px">
+                    </div>
+                </div>
+
             </div>
 
+            <div class="row">
+                <div class="col-md-2 col-xs-6">
+                    <div class="gallery-image m-t-20 mobile-height">
+                        <img src="./assets/image/galllery/image8.jpeg" class="w-100" height="135px">
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <div class="gallery-image m-t-20">
+                        <img src="./assets/image/galllery/image9.jpeg" class="w-100">
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <div class="gallery-image m-t-20 mobile-height">
+                        <img src="./assets/image/galllery/image10.jpeg" class="w-100" height="135px">
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <div class="gallery-image m-t-20">
+                        <img src="./assets/image/galllery/image14.jpeg" class="w-100">
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <div class="gallery-image m-t-20">
+                        <img src="./assets/image/galllery/image12.jpeg" class="w-100" height="135px">
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <div class="gallery-image m-t-20">
+                        <img src="./assets/image/galllery/image13.jpeg" class="w-100" height="135px">
+                    </div>
+                </div>
+            </div>
         </div>
 
-    
-    
-    
+        <div class="container" id="testimonials">
+            <div class="heading-Chocolate-Jurassic">
+                <h2>Testimonials</h2>
+            </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner text-center">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="desc">
+                                    "Camp Chocretaceous offers a unique chocolate experience. The textures and flavors are exceptional, and the dinosaur shapes make it a memorable and enjoyable treat. It's a must-try for any chocolate enthusiast."
+                                </p>
+                                <p>- Alexandra K</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="desc">
+                                    "Camp Chocretaceous exceeded my expectations. The chocolates not only look incredible, but they also taste phenomenal. The attention to detail and the variety of flavors make it a standout chocolate experience."
+                                </p>
+                                <p>Daniel R.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="desc">
+                                    "Camp Chocretaceous offers a unique chocolate experience. The textures and flavors are exceptional, and the dinosaur shapes make it a memorable and enjoyable treat. It's a must-try for any chocolate enthusiast."
+                                </p>
+                                <p>- Alexandra K</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="desc">
+                                    "Camp Chocretaceous exceeded my expectations. The chocolates not only look incredible, but they also taste phenomenal. The attention to detail and the variety of flavors make it a standout chocolate experience."
+                                </p>
+                                <p>Daniel R.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Left and right controls -->
+
+            </div>
+        </div>
+
     </div>
+
+
+    <section class="footer">
+        <div class="container">
+            <div class="pull-left">
+                <div>
+                    <span>Copyright © 2023. All rights reserved by <a href=""> Flagship</a></span>
+                    <a href="../privacy-policy.html">Privacy Polices</a>
+                    <a href="../terms-of-use.html">Terms & Conditions</a>
+                </div>
+            </div>
+            <!-- <div class="pull-left">
+            <div>
+              <p>Copyright © 2023. All rights reserved by Flagship</p>
+              <p>Privacy Polices </p>
+              <p>Terms & Conditions</p>
+            </div>
+          </div> -->
+            <div class="pull-right">
+                <div class="flex">
+                    <a href="https://www.facebook.com/flagshipclubofficial" target="_blank"><i
+                            class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/@flagshipclub" target="_blank"><i
+                            class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.instagram.com/flagshipclub_official/" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/FlagshipClub" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/flagshipclub/
+              " target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://discord.com/invite/MrZuUDsTbS" target="_blank" style="    line-height: 40px;"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-discord" viewBox="0 0 16 16">
+                            <path
+                                d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="pull-right email" id="contact">
+            <p>rach@flagship.club</p>
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" id="cross" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Order Now >></h4>
+                </div>
+                <div class="modal_custom">
+                    <div id="myform" onsubmit="(e)=>{e.preventDefault()}" method="post">
+                        <p>Product:- <span id="user_product"></span></p>
+                        <input placeholder="Enter Name" id="name" />
+                        <input placeholder="Enter Email Address" id="email" />
+                        <input placeholder="Contact Number" id="contact" />
+                        <input placeholder="User Address" id="user_address" />
+
+                        <input placeholder="Quantity" id="quantity" type="number" />
+                        <input placeholder="Delivery Address" id="address" />
+                        <p class="text-center text-success" id="success" style="margin-top:10px"></p>
+
+                        <div class="text-center"><button onclick="formsubmit()">Submit</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script>
+        var htmlValue = ""
+        function getItem(item) {
+            htmlValue = item;
+            document.getElementById("user_product").innerHTML = item;
+        }
+        async function formsubmit(e) {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const contact = document.getElementById('contact').value;
+            const quantity = document.getElementById('quantity').value;
+            const address = document.getElementById('address').value;
+            const user_address = document.getElementById('user_address').value;
+
+            // console.log("name", name, "email", email, "comment", comment, "as", contact);
+
+            var payload = {
+                "name": name,
+                "email": email,
+                "sponsor": contact,
+                "message": `Product-${htmlValue}, Quantity-${quantity},Delivery Address-${address} User Address - ${user_address}`,
+                "website": "flagship",
+            };
+            const rawResponse = await fetch('https://api.khubero.com/website/contact', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            });
+            const content = await rawResponse.json();
+
+            console.log(content);
+            alert("Thanks, Your order has been placed successfully!");
+            document.getElementById("cross").click();
+
+        }
+
+    </script>
 
 </body>
 
