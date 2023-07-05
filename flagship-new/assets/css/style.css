@@ -28,7 +28,7 @@
 
 .navbar li a {
   color: #fff;
-  font-family: "Poppins";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -71,7 +71,16 @@
   font-weight: 700 !important;
   margin-top: 25px !important;
 }
-
+.first-section{
+  height: 100vh;
+  overflow: auto;
+}
+.second-section{
+  background-image: url(../image/second-section.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 19px;
+}
 .home {
   margin-top: 65px;
 }
@@ -82,9 +91,12 @@
 
 .bannerTextWrap {
   position: absolute;
-  top: 350px;
+  top: 0;
   margin-left: 15px;
   width: 100%;
+  /* background: #fff; */
+  height: 100vh;
+  background-image: linear-gradient(#ffffff00, white);
 }
 
 .big-startup {
@@ -113,7 +125,7 @@
 
   color: #000000;
   margin: 0px;
-  margin-top: 14px;
+  margin-top: 60vh;
 }
 
 .join-us-stats {
@@ -131,7 +143,7 @@
 .event-heading h2 {
   color: #030303;
   font-size: 36px;
-  font-family: Montagu Slab;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -152,7 +164,7 @@
 .event-text h2 {
   color: #000;
   font-size: 20px;
-  font-family: Montserrat;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -161,7 +173,7 @@
 .event-text p {
   color: #000;
   font-size: 16px;
-  font-family: Montserrat;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -231,7 +243,7 @@
   color: #FFDB1D;
   text-align: center;
   font-size: 36px;
-  font-family: Montagu Slab;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -243,7 +255,7 @@
   color: #FFF;
   text-align: center;
   font-size: 18px;
-  font-family: Montserrat;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
@@ -255,8 +267,10 @@
 }
 
 .video video {
-  width: 100%;
-  height: 487px;
+  /* width: 100%;
+  height: 487px; */
+  max-width: 100%;
+    height: auto;
 }
 
 .accordion {
@@ -310,7 +324,7 @@
 }
 
 .footer a {
-  font-family: "Poppins";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -348,7 +362,7 @@
 .frequently-heading h2 {
   color: #030303;
   font-size: 36px;
-  font-family: Montagu Slab;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -361,6 +375,18 @@
   padding: 130px 0px 195px;
 }
 
+.model-details input {
+  margin-top: 10px;
+  width: 100%;
+  padding: 7px 4px;
+  font-size: 19px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.modal-title {
+  font-weight: 600;
+}
 
 
 
@@ -368,10 +394,16 @@
 
 
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 600px) {
   .contact-us {
     display: inline-block !important;
   }
+  .first-section {
+    height: auto;
+    overflow: auto;
+    margin-top: 71px;
+}
   
   .home {
     margin-top: 0px;
@@ -425,10 +457,24 @@
 
   .bannerTextWrap {
     position: absolute;
-    top: 92px;
+    top: -12px;
 
   }
-
+  .bannerTextWrap {
+    position: absolute;
+    top: 0;
+    margin-left: 15px;
+    width: 100%;
+    /* background: #fff; */
+    height: 40%;
+    background-image: linear-gradient(#ffffff00, white);
+}
+.container-header {
+  padding: 0px 6px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: #fff !important;
+}
   .big-startup {
     padding: 3px 30px;
     border: 1px solid #FFC102;
@@ -451,7 +497,7 @@
   }
 
   .event-heading h2 {
-    margin-top: 148px;
+    margin-top: 48px;
   }
 
   .event-text {
