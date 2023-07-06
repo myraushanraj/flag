@@ -152,6 +152,34 @@
   /* margin-bottom: 60px; */
 }
 
+.event-text1 {
+  background-color: #E0EFFA;
+  padding: 5px 38px;
+  width: 90%;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  min-height: 180px;
+}
+
+.event-text1 h2 {
+  color: #000;
+  font-size: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.event-text1 p {
+  color: #000;
+  font-size: 16px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+
 .event-text {
   background-color: #E0EFFA;
   padding: 5px 38px;
@@ -501,6 +529,10 @@
   }
 
   .event-text {
+    width: 98%;
+  }
+
+  .event-text1 {
     width: 98%;
   }
 
