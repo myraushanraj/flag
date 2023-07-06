@@ -175,7 +175,11 @@ then set the desired styles for .card-img. */
 }
 
 .card:last-child {
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
+}
+
+.card p{
+  min-height: 239px;
 }
 
 .card-img {
@@ -404,6 +408,10 @@ then set the desired styles for .card-img. */
   .video video {
     width: 100%;
         margin-top: 55px;
+  }
+
+  form input {
+    display: block;
   }
 @media only screen and (max-width: 700px) {
   .col-md-3 img{

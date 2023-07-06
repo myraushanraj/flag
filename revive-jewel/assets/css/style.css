@@ -161,7 +161,7 @@ then set the desired styles for .card-img. */
   --main-color: #323232;
   --main-focus: #2d8cf0;
   width: 100%;
-  min-height: 395px;
+  min-height: 326px;
   background: var(--bg-color);
   border: 2px solid var(--main-color);
   box-shadow: 4px 4px var(--main-color);
@@ -175,9 +175,12 @@ then set the desired styles for .card-img. */
 }
 
 .card:last-child {
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
+.card p{
+  min-height: 160px;
+}
 .card-img {
     /* clear and add new css */
   transition: all 0.5s;
@@ -398,6 +401,10 @@ video {
   width: 100%;
   border: 1px solid #ddd;
   box-shadow: 7px 12px 15px 0px gray;
+}
+
+form input {
+  display: block;
 }
 @media only screen and (max-width: 700px) {
   .camp-head {
