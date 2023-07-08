@@ -521,6 +521,9 @@ a.carousel-control{
     top: -12px;
 
   }
+  .second-section .col-md-3{
+    margin-top: 20px;
+  }
 
   .bannerTextWrap {
     position: absolute;
@@ -528,7 +531,7 @@ a.carousel-control{
     margin-left: 15px;
     width: 100%;
     /* background: #fff; */
-    height: 40%;
+    height: 46%;
     background-image: linear-gradient(#ffffff00, white);
   }
 
@@ -565,17 +568,11 @@ a.carousel-control{
     margin-top: 48px;
   }
 
-  .event-text {
-    width: 98%;
-  }
 
   .event-text1 {
     width: 98%;
   }
 
-  .m-t-mobile {
-    margin-top: 25px;
-  }
 
   .mobile-btn {
     padding: 23px 37px;
