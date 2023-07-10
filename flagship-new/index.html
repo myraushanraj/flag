@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-    
+
 </head>
 
 <body>
@@ -40,6 +40,7 @@
                     <li><a href="#about-us">About Us</a></li>
                     <!-- <li><a href="tranches">Tranches</a></li> -->
                     <li><a href="#events">Events</a></li>
+                    <li><a href="#enroll-now">Enroll-Now</a></li>
                     <li><a href="#modules">Modules</a></li>
                     <li><a href="#initiatives">Initiatives</a></li>
                     <!-- <li><a href="enroll-now">Enroll Now</a></li> -->
@@ -91,7 +92,7 @@
     <div class="second-section" id="events">
         <div class="event-heading">
             <h2>Trailblazing Events</h2>
-           
+
         </div>
         <div class="container animate__backInLeft">
             <div class="row">
@@ -118,10 +119,11 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="event-text buyNowcard">
-                    <h2>Flagship Fall Camp Registration</h2>
-                    <p>Be part of the exclusive entrepreneurial cohort, limited seats only.</p>
-                    <p class="text-center"><a class="contact-us " href="./subscription.html">Buy Now</a></p>
+                    <div class="event-text buyNowcard" id="enroll-now">
+                        <h2>Flagship Fall Camp Registration</h2>
+                        <p>Be part of the exclusive entrepreneurial cohort, limited seats only.</p>
+                        <p class="text-center" style="margin-top: 60px;"><a class="contact-us " href="./subscription.html" style="padding: 13px 25px !important;
+                            font-size: 18px;">Buy Now</a></p>
                     </div>
                 </div>
             </div>
@@ -131,7 +133,7 @@
     <div class="third-section">
         <div class="event-heading">
             <h2>Flagpreneurs Making Their Mark</h2>
-           
+
         </div>
 
         <div class="container">
@@ -145,26 +147,29 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                       <a href="/vitaliscoops"> <img src="./assets/image/vital.png" alt="vitaliscoops" style="width:100%;"></a>
-                       <a class="product contact-us " href="/vitaliscoops">Check product </a>
+                        <a href="/vitaliscoops"> <img src="./assets/image/vital.png" alt="vitaliscoops"
+                                style="width:100%;"></a>
+                        <a class="product contact-us " href="/vitaliscoops">Check product </a>
                     </div>
                     <div class="item ">
-                     <a href="/craftygirls">  <img src="./assets/image/craftygirl.png" alt="craftygirl" style="width:100%;"></a> 
-                     <a class="product contact-us " href="/craftygirls">Check product </a>
+                        <a href="/craftygirls"> <img src="./assets/image/craftygirl.png" alt="craftygirl"
+                                style="width:100%;"></a>
+                        <a class="product contact-us " href="/craftygirls">Check product </a>
 
                     </div>
 
                     <div class="item">
-                       <a href="/campc"><img src="./assets/image/camp.png" alt="campc" style="width:100%;"></a> 
-                       <a class="product contact-us " href="/campc">Check product </a>
+                        <a href="/campc"><img src="./assets/image/camp.png" alt="campc" style="width:100%;"></a>
+                        <a class="product contact-us " href="/campc">Check product </a>
                     </div>
 
                     <div class="item">
-                       <a href="revive-jewel"> <img src="./assets/image/revive.png" alt="revive" style="width:100%;"></a>
-                       <a class="product contact-us " href="/revive-jewel">Check product </a>
+                        <a href="revive-jewel"> <img src="./assets/image/revive.png" alt="revive"
+                                style="width:100%;"></a>
+                        <a class="product contact-us " href="/revive-jewel">Check product </a>
                     </div>
 
-                   
+
                 </div>
                 <!-- Left and right controls -->
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -184,10 +189,10 @@
             <h2>REVOLUTIONARY MODULES</h2>
             <p>Module Developed by industry CXOs and Californian <br />education board members covers topics such as  
             </p>
-           
+
         </div>
-      
-            <marquee id="my-marquee">
+
+        <marquee id="my-marquee">
             <div class="row button-padding">
                 <div class="col-md-3">
                     <button class="Brainstorm-btn mobile-btn-strom">Brainstorm</button>
@@ -203,24 +208,24 @@
                 </div>
             </div>
         </marquee>
-    
+
     </div>
 
     <div class="fifth-section" id="initiatives">
         <div class="initiative-head">
             <h2>We are already leading <br />this initiative</h2>
             <p>Keeping Teachers, Families and Kids Connected</p>
-           
+
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <video height="210" controls  class="w-100">
+                    <video height="210" controls class="w-100">
                         <source src="./assets/image/flagship-video1.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-sm-3">
-                    <video height="210" controls  class="w-100">
+                    <video height="210" controls class="w-100">
                         <source src="./assets/image/flagship-video2.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -463,11 +468,17 @@
             video.muted = true;
             video.play()
 
-
+            $('.navbar-right li a').click(function () {
+      var menuName = $(this).html();
+      if (menuName.includes("Product")) {
+        return
+      }
+      $(".navbar-collapse").removeClass("in");
+    });
         </script>
 
         <!--testing-->
-        
+
 
 </body>
 
