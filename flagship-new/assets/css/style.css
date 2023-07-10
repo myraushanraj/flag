@@ -455,6 +455,11 @@ a.carousel-control{
 
 
 @media screen and (max-width: 600px) {
+  .carousel-inner .item .product {
+    position: absolute;
+    bottom: 9px;
+    left: 4px;
+}
   .contact-us {
     display: inline-block !important;
   }
