@@ -345,6 +345,15 @@ blockquote:after,
 	content: close-quote !important;
 }
 
+.buy_now {
+	padding: 8px 17px;
+    border-radius: 4px;
+    border: 1px solid #b1afaf;
+    background: #ffdb5e;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
 .testimonial img {
 	margin-right: 15px;
 	float: left;

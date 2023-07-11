@@ -643,7 +643,7 @@
 					<button onclick="formsubmit()">Submit</button>
 					</form>
 				</div> -->
-				<div class="modal-body termsWrapper">
+				<div class="modal-body termsWrapper" >
           
 					<div class="terms-condition-term">
 						<h2>1. Accepting These Terms </h2>
@@ -1136,7 +1136,7 @@
 							rights and obligations under the Terms. </p>
 					</div>
 				
-					<div class="Restrictions-condition">
+					<div class="Restrictions-condition" id="termWrap">
 						<h2>14. Contact Information </h2>
 					</div>
 					<div class="container terms-details">
@@ -1144,6 +1144,21 @@
 					</div>
 				
 			
+				</div>
+				<div style="    text-align: right;
+				/* margin-right: 24px; */
+				position: absolute;
+				bottom: 95px;
+				width: 100%;
+				right: 49px;">
+				<a href="#termWrap">
+					<i class="fa fa-angle-double-up"  style="font-size: 33px;
+					color: #523426;
+					background: #00000082;
+					/* padding: 0px; */
+					border: 1px solid #523426;
+					cursor: pointer;" ></i></a>
+
 				</div>
 	
 				<div class="modal-footer">
@@ -1252,7 +1267,9 @@ var gatewaykey = "";
 														<a class="trigger" name=${craftyList[i].gateway}  href="javascript:void(0)">${craftyList[i].name} &nbsp;&nbsp;($${craftyList[i].price})</a>
 
 													</div>
-													<button>Buy ${craftyList[i].price}</button>
+													<p style="text-align:center">
+														<button class="buy_now trigger" name=${craftyList[i].gateway}>Buy Now</button>
+													</p>
 													
 												</div>
 												<div style="text-align:center">
@@ -1267,6 +1284,13 @@ var gatewaykey = "";
 			function buyNow(){
 				document.getElementById("buyNow").click();
 			}
+function scrollTopF(){
+	alert(12)
+	document.getElementById("scrollTop").scrollTop  = 0;
+
+
+}
+
 		</script>
 <form class="hidden" name="PrePage" method = "post" action = "https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx">
 	<input type = "hidden" class="keyVal" name = "LinkId" value="" />
