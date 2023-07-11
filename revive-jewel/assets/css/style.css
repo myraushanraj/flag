@@ -406,6 +406,37 @@ video {
 form input {
   display: block;
 }
+
+.buy-now-button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin: auto;
+}
+
+.termsWrapper{
+  max-height: 500px;
+    overflow: auto;
+}
+.termsWrapper div{
+  width: 100%;
+  margin-left: 0px;
+}
+.termsWrapper div h2{
+  font-size: 18px;
+}
+
+.up-icon {
+  position: absolute;
+    bottom: 60px;
+    right: 27px;
+    border: 1px solid;
+    background: #80808047;
+}
 @media only screen and (max-width: 700px) {
   .camp-head {
     font-size: 41px;
