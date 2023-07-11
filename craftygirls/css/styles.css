@@ -9323,9 +9323,15 @@ input[type*="submit"] {
 form input {
 	display: block;
 }
-
+.termsWrapper{
+	max-height: 500px;
+    overflow: auto;
+}
 form label {
 	margin: 0.2em 0;
+}
+.hidden{
+	display: none;
 }
 
 form label {
