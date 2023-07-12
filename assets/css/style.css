@@ -4,6 +4,29 @@ body,p,li,h1,h2,h3,span,a{
 .container-header {
   padding: 0px 80px;
 }
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+
+}
+
+
+
 
 .navbar {
   margin-bottom: 0;
@@ -195,8 +218,11 @@ body,p,li,h1,h2,h3,span,a{
 .buyNowcard{
   min-height: 420px;
 }
+
+
+
 .carousel-inner .item{
-  position: relative;
+ 
 }
 .carousel-inner .item .product{
   position: absolute;
