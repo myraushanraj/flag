@@ -409,9 +409,19 @@ form input {
   font-size: 18px;
 }
 
+.buy-btn{
+  background: green;
+  border: 1px solid green;
+  color: #fff;
+  padding: 8px 13px;
+  font-size: 14px;
+  border-radius: 17px;
+  margin-right: 10px;
+}
+
 .up-icon {
   position: absolute;
-    bottom: 60px;
+    bottom: 74px;
     right: 27px;
     border: 1px solid;
     background: #80808047;
