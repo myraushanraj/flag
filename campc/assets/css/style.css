@@ -1,7 +1,7 @@
   /* nav section start */
 
   .navbar-brand img {
-    width: 18%;
+    width: 100px;
   }
 
   .navbar {
@@ -28,7 +28,7 @@
     color: #fff;
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 19px;
     line-height: 28px;
     /* identical to box height */

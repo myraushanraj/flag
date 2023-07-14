@@ -10,6 +10,7 @@
     font-size: 18px;
     padding: 10px 10px;
     font-weight: 700;
+    margin-bottom: 0px;
   }
 
 
@@ -468,5 +469,9 @@ form input {
   }
   .carousel-indicators {
     top: 296px;
+}
+
+.alert {
+  margin-bottom: 20px;
 }
 }

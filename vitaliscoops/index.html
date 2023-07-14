@@ -15,16 +15,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
 
-<!-- <body style="margin-bottom: 100px;"> -->
-
 <body>
-
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
@@ -42,20 +37,16 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#flavors">Flavors</a></li>
                     <li><a href="#Order-now">Order Now</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#about-us">About-Us</a></li>
                     <li><a href="#testimonials ">Testimonials </a></li>
-                    <li><a href="https://linktr.ee/flagship.club" target="_blank">Contact</a></li>
-
-
+                    <li><a href="https://linktr.ee/flagship.club" target="_blank" class="contact-us ">Contact Us</a>
                 </ul>
             </div>
         </div>
     </nav>
 
-
     <div>
-
-        <div class="row">
+        <div class="row" id="home">
             <div class="col-md-12">
                 <img src="./assets/image/chocretaceous1.jpeg" class="w-100">
             </div>
@@ -76,16 +67,11 @@
                         Our mission is to provide you with a delightful and indulgent experience while incorporating
                         ingredients that promote vitality, reproductive health, and overall youthful vitality.
                     </p>
-                    <!-- <div class="launching-text-link">
-                        <a href="#" target="_blank">Launching Soon on Flagship.Club</a>
-                    </div> -->
                 </div>
                 <div class="col-md-6">
                     <div class="chocretaceous-image">
                         <img src="./assets/image/chocretaceous.jpeg">
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -96,23 +82,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <video height="210" controls id="enroll-now">
-                        <source src="./assets/image/video4.mp4" type="video/mp4">
+                    <video height="210" controls preload="metadata">
+                        <source src="./assets/image/video4.mp4#t=0.5" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-md-3">
-                    <video height="210" controls id="enroll-now">
-                        <source src="./assets/image/video3.mp4" type="video/mp4">
+                    <video height="210" controls preload="metadata">
+                        <source src="./assets/image/video3.mp4#t=0.3" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-md-3">
-                    <video height="210" controls id="enroll-now">
+                    <video height="210" controls preload="metadata">
                         <source src="./assets/image/video1.mp4" type="video/mp4">
                     </video>
                 </div>
                 <div class="col-md-3">
-                    <video height="210" controls id="enroll-now">
-                        <source src="./assets/image/video2.mp4" type="video/mp4">
+                    <video height="210" controls preload="metadata">
+                        <source src="./assets/image/video2.mp4#t=0.2" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -130,16 +116,8 @@
                             flavor offers a tantalizing blend of creamy indulgence and the health-boosting properties of
                             turmeric, known for its anti-inflammatory and antioxidant benefits.
                         </p>
-                        <!-- <a type="button" onclick="getItem('Turmeric Coffee')" data-toggle="modal" data-target="#myModal"
-                            class="order ">Order Now</a> -->
                         <a href="#" class="buy-now-button" data-toggle="modal" data-target="#myModal"
                             onclick="setId('f6559b01-43f8-4254-bcc0-d6bb15a48c8c')">Buy Now $4</a>
-
-                        <!-- <form name="PrePage" method="post"
-                            action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input
-                                type="hidden" name="LinkId" value="f6559b01-43f8-4254-bcc0-d6bb15a48c8c" /> <input
-                                style="margin:auto" type="image"
-                                src="https://content.authorize.net/images/buy-now-gold.gif" /> </form> -->
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -148,15 +126,8 @@
                         <p>Experience the delicate and refreshing taste of rose petals in our luscious sorbet. Made with
                             real rose extracts, this flavor not only delights your palate but also promotes relaxation
                             and rejuvenation.</p>
-                        <!-- <a type="button" onclick="getItem('Rose Sorbet')" data-toggle="modal" data-target="#myModal"
-                            class="order ">Order Now</a> -->
                         <a href="#" class="buy-now-button" data-toggle="modal" data-target="#myModal"
                             onclick="setId('d5c28013-0e65-4443-b8d7-722b012369ae')">Buy Now $5</a>
-                        <!-- <form name="PrePage" method="post"
-                            action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input
-                                type="hidden" name="LinkId" value="d5c28013-0e65-4443-b8d7-722b012369ae" /> <input
-                                style="margin:auto" type="image"
-                                src="https://content.authorize.net/images/buy-now-gold.gif" /> </form> -->
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -165,15 +136,8 @@
                         <p>Indulge in the classic allure of smooth vanilla enhanced with the richness of olive butter.
                             This flavour combines the comforting familiarity of vanilla with the nourishing properties
                             of olive, which is packed with healthy fats and antioxidants.</p>
-                        <!-- <a type="button" onclick="getItem('Vanilla Olive Butter')" data-toggle="modal"
-                            data-target="#myModal" class="order ">Order Now</a> -->
                         <a href="#" class="buy-now-button" data-toggle="modal" data-target="#myModal"
                             onclick="setId('1a1f5bf5-2047-4eea-b65f-959c0728ef24')">Buy Now $4</a>
-                        <!-- <form name="PrePage" method="post"
-                            action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input
-                                type="hidden" name="LinkId" value="1a1f5bf5-2047-4eea-b65f-959c0728ef24" /> <input
-                                style="margin:auto" type="image"
-                                src="https://content.authorize.net/images/buy-now-gold.gif" /> </form> -->
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -183,28 +147,20 @@
                             caramel ice cream. The blue pea flower not only lends its vibrant hue but also provides
                             antioxidants and anti-aging properties, giving you a sweet treat with added health benefits.
                         </p>
-                        <!-- <a type="button" onclick="getItem('Blue Pea Caramel')" data-toggle="modal"
-                            data-target="#myModal" class="order ">Order Now</a> -->
                         <a href="#" class="buy-now-button" data-toggle="modal" data-target="#myModal"
                             onclick="setId('b2a2a9e4-807a-4148-b074-a0a440b833bd')">Buy Now $8</a>
-                        <!-- <form name="PrePage" method="post"
-                            action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx"> <input
-                                type="hidden" name="LinkId" value="b2a2a9e4-807a-4148-b074-a0a440b833bd" /> <input
-                                style="margin:auto" type="image"
-                                src="https://content.authorize.net/images/buy-now-gold.gif" /> </form> -->
                     </div>
                 </div>
 
             </div>
         </div>
         <br />
-        <div class="container">
+        <div class="container" id="about-us">
             <h4 class="desc">Place your order for VitaliScoops directly through our website. Select your desired
                 flavors, choose
                 the quantities, and decide on your preferred delivery option. We have partnered with Flagship.Club
                 to ensure a seamless and secure booking experience. Elevate your ice cream indulgence by ordering
                 VitaliScoops today! </h4>
-
         </div>
 
         <div class="container" id="testimonials">
@@ -216,7 +172,6 @@
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
-
                 </ol>
 
                 <!-- Wrapper for slides -->
@@ -237,7 +192,6 @@
                                     winner for me. Highly recommended!"</p>
                                 <p>- Emma R.</p>
                             </div>
-
                         </div>
                     </div>
                     <div class="item">
@@ -273,14 +227,7 @@
                     <a href="../terms-of-use.html">Terms & Conditions</a>
                 </div>
             </div>
-            <!-- <div class="pull-left">
-            <div>
-              <p>Copyright © 2023. All rights reserved by Flagship</p>
-              <p>Privacy Polices </p>
-              <p>Terms & Conditions</p>
-            </div>
-          </div> -->
-            <div class="pull-right">
+                        <div class="pull-right">
                 <div class="flex">
                     <a href="https://www.facebook.com/flagshipclubofficial" target="_blank"><i
                             class="fa fa-facebook-f"></i></a>

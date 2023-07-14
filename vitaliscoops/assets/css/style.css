@@ -427,6 +427,14 @@ form input {
     background: #80808047;
 }
 
+.contact-us {
+  background: #ffdb1d;
+  border-radius: 60px;
+  padding: 12px 23px !important;
+  margin: 14px 0px;
+  color: #000 !important;
+}
+
 @media only screen and (max-width: 700px) {
   .camp-head {
     font-size: 41px;
@@ -439,5 +447,17 @@ form input {
   }
   .carousel-indicators {
     top: 296px;
+}
+
+.navbar-brand img {
+  margin-top: -15px;
+}
+
+.contact-us {
+  display: inline-block !important;
+}
+
+.col-md-3 video{
+  margin-top: 20px;
 }
 }

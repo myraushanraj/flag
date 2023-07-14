@@ -213,10 +213,10 @@ body,p,li,h1,h2,h3,span,a{
   padding: 5px 38px;
   border-bottom-left-radius: 21px;
   border-bottom-right-radius: 21px;
-  min-height: 242px;
+  min-height: 271px;
 }
 .buyNowcard{
-  min-height: 420px;
+  min-height: 453px;
 }
 
 
@@ -652,6 +652,9 @@ a.carousel-control{
   }
 }
 
+.col-sm-3 video {
+  margin-top: 20px;
+}
 
 .model-details input {
   margin-top: 10px;
@@ -691,8 +694,8 @@ a.carousel-control{
 
 .terms-condition h2 {
   font-weight: 600;
-  margin-top: 135px;
-  margin-left: 190px;
+  margin-top: 75px;
+  /* margin-left: 190px; */
 }
 
 .terms-condition-term h2 {
@@ -700,7 +703,7 @@ a.carousel-control{
 }
 
 .terms-details {
-  font-size: 16px;
+  font-size: 17px;
   margin-top: 30px;
 }
 
@@ -714,16 +717,15 @@ a.carousel-control{
 
 .Restrictions-condition {
   margin-top: 50px;
-  margin-left: 190px;
-}
+  }
 
 .Restrictions-condition h2 {
   font-weight: 600;
 }
 
 .terms-policy {
-  font-size: 16px;
-  margin-top: 176px;
+  font-size: 17px;
+  margin-top: 90px;
 }
 
 .terms-policy p {
@@ -739,7 +741,7 @@ a.carousel-control{
 /*        subscription          */
 .subs-heading {
   text-align: center;
-  margin-top: 136px;
+  margin-top: 55px;
 }
 
 * {
@@ -803,4 +805,9 @@ a.carousel-control{
   text-align: center;
   text-decoration: none;
   font-size: 18px;
+}
+
+.terms-condition h2 {
+    margin-top: 30px;
+  
 }
