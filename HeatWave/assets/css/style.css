@@ -15,6 +15,7 @@
 
   .navbar-brand img {
     width: 85px;
+    margin-top: -8px;
   }
 
   .buy-now-button {
@@ -494,4 +495,10 @@ then set the desired styles for .card-img. */
     .m-t-20-mobile {
       margin-top: 20px;
     }
+
+    .navbar-brand img {
+      width: 68px;
+      margin-top: -10px;
+      margin-left: 12px;
   }
+}
