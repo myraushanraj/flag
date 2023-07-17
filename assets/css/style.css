@@ -789,6 +789,10 @@ a.carousel-control{
   .columns {
     width: 100%;
   }
+
+  .model-details input {
+    font-size: 15px;
+  }
 }
 
 .price .grey {
