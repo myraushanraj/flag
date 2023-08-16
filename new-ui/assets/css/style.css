@@ -85,7 +85,7 @@ a {
 
 .first-section {
   background-color: #010101;
-  height: 110vh;
+  height: 130vh;
 }
 
 .first-section .heading {
@@ -98,7 +98,7 @@ a {
   font-size: 66px;
   font-style: normal;
   font-weight: 400;
-  }
+}
 
 .first-section img {
   width: 264px;
@@ -176,7 +176,7 @@ a {
 
 .line {
   width: 6px;
-  height: 2409px;
+  height: 2490px;
   flex-shrink: 0;
   position: absolute;
   top: 0;
@@ -252,6 +252,12 @@ a {
 
 .third-section .m-bottom {
   margin-bottom: 220px;
+}
+
+.third-section .w-80-mobile {
+  width: 80%;
+  display: block;
+    margin: auto;
 }
 
 .flex {
@@ -398,7 +404,7 @@ a {
   font-weight: 700;
   line-height: 47px;
   padding: 0px 40px;
-  border: 1px solid #8CE58B;
+  border: 1px solid #006699;
   background: #006699;
   border-radius: 10px;
   color: white;
@@ -542,12 +548,16 @@ a {
 
 .eighth-section .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: #006699;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   text-align: left;
   border: 1px solid #FFF309 !important;
+}
+
+.eighth-section .panel p{
+  color: #fff;
 }
 
 .footer {
@@ -596,15 +606,183 @@ a {
 
 }
 
-
-
-
+.w-100 {
+  width: 100%;
+}
 
 @media screen and (max-width: 600px) {
+  .navbar .navbar-brand {
+    padding: 0px;
+    margin: 14px -62px;
+}
+
+.navbar-toggle {
+  margin-right: -42px;
+    margin-top: 25px;
+}
+
+.dropdown-menu-mobile li a {
+  color: #fff;
+}
+
   .contact-us {
     display: inline-block !important;
   }
 
+  .first-section {
 
+    height: 79vh;
+  }
+
+  .first-section img {
+    margin-top: -50px;
+    width: 220px;
+  }
+
+  .first-section .heading {
+    margin-top: 53px;
+  }
+
+  .first-section .head-top {
+    font-size: 28px;
+  }
+
+  .second-section .Entrepreneurs {
+    font-size: 32px;
+    margin-top: 90px;
+    margin-left: 37px;
+  }
+
+  .second-section form {
+    width: 320px;
+    margin-top: 50px;
+  }
+
+  .second-section .nft-form input {
+    padding: 12px;
+    border-radius: 11px;
+  }
+
+  .second-section .nft-form label {
+    margin-top: 20px;
+  }
+
+  .second-section .submit {
+    margin-top: 35px;
+  }
+
+  .third-section .line {
+    display: none;
+  }
+
+  .third-section .business h2 {
+    line-height: 47px;
+    margin-left: 37px;
+    margin-top: 37px;
+    font-size: 40px;
+  }
+
+  .third-section .incubated-img img {
+    margin-top: 21px;
+  }
+
+  .third-section .Gain {
+    padding: 30px 45px 0px 45px;
+  }
+
+  .third-section .business p {
+    margin-left: 37px;
+  }
+
+  .third-section .m-bottom {
+    margin-bottom: 40px;
 }
 
+  .fourth-section {
+    height: 1055px;
+  }
+
+  .fourth-section .camp-box {
+    width: 355px;
+    height: 260px;
+    margin-top: 30px;
+  }
+
+  .fourth-section .heading h2 {
+    font-size: 30px;
+    padding-top: 33px;
+  }
+
+  .fourth-section .heading p {
+    font-size: 21px;
+  }
+
+  .fifth-section .ecommerce h2 {
+    margin-left: 37px;
+    margin-top: 70px;
+  }
+
+  .fifth-section .ecommerce p {
+    margin-left: 37px;
+  }
+
+  .sixth-section {
+    height: 800px;
+    margin-top: 45px;
+  }
+
+  .sixth-section .chat-sec h2 {
+    margin-top: 40px;
+  }
+
+  .sixth-section .calender img {
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    width: 340px;
+  }
+
+  .sixth-section .chat-sec button {
+    margin-left: 88px;
+  }
+
+  .seventh-section {
+    background: none;
+    padding-bottom: 60px;
+  }
+
+  .seventh-section .flex {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  .seventh-section .offering-box {
+    margin: auto;
+  }
+
+  .seventh-section .mt-30-mobile {
+    margin-top: 30px;
+  }
+
+  .seventh-section .Offering {
+    margin-top: 70px;
+    margin-left: 65px;
+  }
+
+  .eighth-section .faq {
+    font-size: 25px;
+    margin-top: 44px;
+    margin-left: 20px;
+  }
+
+  .eighth-section .faq img {
+    margin-top: -24px !important;
+    width: 30px;
+  }
+
+  .eighth-section .m-60 {
+    margin-top: 20px;
+}
+
+
+}
