@@ -85,7 +85,10 @@ a {
 
 .first-section {
   background-color: #010101;
-  height: 130vh;
+  height: 100vh;
+  position: fixed;
+  z-index: 11;
+  width: 100%;
 }
 
 .first-section .heading {
