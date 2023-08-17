@@ -13,6 +13,11 @@ a {
   padding: 0px 80px;
 }
 
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #17598D;
@@ -179,7 +184,7 @@ a {
 
 .line {
   width: 6px;
-  height: 2490px;
+  height: 2475px;
   flex-shrink: 0;
   position: absolute;
   top: 0;
