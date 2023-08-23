@@ -10435,7 +10435,7 @@ figcaption {
 .background-video-5 {
   z-index: 0;
   width: 400px;
-  height: 400px;
+  height: 756px;
   min-height: 400px;
   min-width: 400px;
   border-radius: 20px;
@@ -36193,5 +36193,36 @@ figcaption {
   #w-node-_7d4bf765-f492-1e21-cc08-b2c27d239acb-9e89a103 {
     grid-area: span 1 / span 1 / span 1 / span 1;
     justify-self: end;
+  }
+}
+.reviewWrap{
+  display: flex;
+  gap: 40px;
+  color: #fff;
+  margin: 50px 0px;
+}
+.reviewWrap h2{
+  font-size: 18px;
+  margin: 15px 0px 10px 0px;
+}
+.reviewWrap img{
+  width: 190px;
+  max-width: unset;
+}
+@media only screen and (max-width: 700px) {
+  .reviewWrap{
+    display: flex;
+    gap: 40px;
+    color: #fff;
+    margin: 50px 50px;
+    flex-direction: column;
+  }
+  .reviewWrap h2{
+    font-size: 18px;
+    margin: 15px 0px 10px 0px;
+  }
+  .reviewWrap img{
+    width: 100%;
+    max-width: unset;
   }
 }
