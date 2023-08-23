@@ -16,6 +16,38 @@
 </head>
 
 <body>
+   <header>
+      <nav>
+        <div id="navbar">
+          <div id="logo" class="reverse">
+            <div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;" onclick="openNav()">&#9776;</div>
+            <div class="logo">
+               <img src="https://flagship.club/assets/image/logo.png" />
+            </div>
+  
+          </div>
+          <div id="links">
+            <a href="">Home</a>
+            <!-- <a href="">About</a>
+            <a href="">Blog</a>
+            <a href="">Service</a> -->
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+  
+      </nav>
+      <!-- Mobile Menu -->
+      <div id="mySidenav" class="sidenav">
+        <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">Blog</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </div>
+    </header>
+    
+    
    <div class="body-3">
       <div class="html-embed-25 w-embed w-iframe">
          <!-- Google Tag Manager (noscript) -->
@@ -960,7 +992,7 @@
             </div>
          </div>
       </div> -->
-      <div class="section-campaign markeing-campaign-1">
+      <div class="section-campaign markeing-campaign-1" id="faq">
          <div class="w-container">
             <div class="div-block-650">
                <div class="div-block-657">
@@ -1231,6 +1263,14 @@
          }
       }, 1000);
 
+
+      function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 
    </script>
 </body>
