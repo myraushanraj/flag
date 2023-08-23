@@ -2904,7 +2904,7 @@ figcaption {
   text-align: center;
   text-transform: none;
   margin-top: 0;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
   font-size: 48px;
   font-weight: 500;
 }
