@@ -18,36 +18,41 @@
 <body>
    <header>
       <nav>
-        <div id="navbar">
-          <div id="logo" class="reverse">
-            <div class="mobile-btn" style="font-size:30px;cursor:pointer; font-weight:bold;" onclick="openNav()">&#9776;</div>
-            <div class="logo">
-               <img src="https://flagship.club/assets/image/logo.png" />
+         <div id="navbar">
+            <div id="logo" class="reverse">
+               <div class="mobile-btn" onclick="openNav()">
+                  &#9776;</div>
+               <div class="logo">
+                  <img src="https://flagship.club/assets/image/logo.png" />
+               </div>
+
             </div>
-  
-          </div>
-          <div id="links">
-            <a href="">Home</a>
-            <!-- <a href="">About</a>
-            <a href="">Blog</a>
-            <a href="">Service</a> -->
-            <a href="#faq">FAQ</a>
-          </div>
-        </div>
-  
+            <div id="links">
+               <a href="#register">Register</a>
+               <a href="#introduction">Introduction</a>
+               <a href="#how-it-works">How it works</a>
+               <a href="#webinar">Webinar</a>
+               <a href="#why-now">Why now</a>
+               <a href="#mentor">Mentor</a>
+               <a href="#faq">FAQ</a>
+            </div>
+         </div>
+
       </nav>
       <!-- Mobile Menu -->
       <div id="mySidenav" class="sidenav">
-        <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Home</a>
-        <a href="#">Gallery</a>
-        <a href="#">Blog</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+         <a style="cursor:pointer;" class="closebtn" onclick="closeNav()">&times;</a>
+         <a href="#register">Register</a>
+         <a href="#introduction">Introduction</a>
+         <a href="#how-it-works">How it works</a>
+         <a href="#webinar">Webinar</a>
+         <a href="#why-now">Why now</a>
+         <a href="#mentor">Mentor</a>
+         <a href="#faq">FAQ</a>
       </div>
-    </header>
-    
-    
+   </header>
+
+
    <div class="body-3">
       <div class="html-embed-25 w-embed w-iframe">
          <!-- Google Tag Manager (noscript) -->
@@ -74,14 +79,15 @@
                      </div>
                   </div>
                </div>
-               <div class="hero-wrapper-gpt">
+               <div class="hero-wrapper-gpt" id="register">
                   <div id="w-node-_1866f97a-6e45-c9b1-c12a-faecde863e91-524453fe" class="headline-gpt">
-                     <h1 class="heading-93">Sharpen Your Pencils. <span class="text-span-182"> Get Your Notepad Ready!</span>
-                         </h1>
+                     <h1 class="heading-93">Sharpen Your Pencils. <span class="text-span-182"> Get Your Notepad
+                           Ready!</span>
+                     </h1>
                   </div>
                   <div id="w-node-_1866f97a-6e45-c9b1-c12a-faecde863e98-524453fe" class="sub-head-gpt">
-                     <div class="text-block-356 green chatgpt"><u> Get hands on to exclusive $50k funding  pot if
-                        selected in the incubator program. </u>
+                     <div class="text-block-356 green chatgpt"><u> Get hands on to exclusive $50k funding pot if
+                           selected in the incubator program. </u>
                         <br /> AI Revolution and career crisis
                      </div>
                   </div>
@@ -99,10 +105,22 @@
                         <div class="text-block-442">11:00 AM PST</div>
                      </div>
                   </div>
-                  <div class="vsl-gpt">
-                    <video width="320" height="260" controls>
-                     <source src="./image/Introductory-Video.mp4"  type="video/mp4">
-                    </video>
+
+                  <div class="section-1-form">
+                     <form class="nft-form">
+                        <label for="name">Name</label>
+                        <input type="name" id="name" placeholder="Full Name" name="name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email" name="email">
+                        <button class="submit">Submit</button>
+                     </form>
+                  </div>
+
+
+                  <div class="vsl-gpt" id="introduction">
+                     <video width="320" height="260" controls>
+                        <source src="./image/Introductory-Video.mp4" type="video/mp4">
+                     </video>
                   </div>
                   <!-- <div data-w-id="1866f97a-6e45-c9b1-c12a-faecde863ea9" class="div-block-724 green">
                      <a href="#" class="link-block-16 green chatgpt final-cta">
@@ -127,7 +145,7 @@
             </div>
          </div>
       </div>
-      <div class="section-52">
+      <div class="section-52" id="how-it-works">
          <div class="w-container">
             <div class="div-block-725">
                <div id="w-node-_1866f97a-6e45-c9b1-c12a-faecde863eb9-524453fe">
@@ -223,7 +241,7 @@
             </div>
          </div>
       </div>
-      <div>
+      <div id="webinar">
          <div class="">
             <div>
                <div class="div-block-774">
@@ -418,7 +436,7 @@
          <div class="w-container">
             <div class="div-block-730">
                <div id="w-node-_1866f97a-6e45-c9b1-c12a-faecde864028-524453fe">
-                  <h1 class="heading-97"><span class="counters">500</span><span class="text-span-156">+</span> STUDENTS
+                  <h1 class="heading-97"><span class="counters">15</span><span class="text-span-156">+</span> STUDENTS
                   </h1>
                </div>
                <div id="w-node-_1866f97a-6e45-c9b1-c12a-faecde86402f-524453fe" class="div-block-731">
@@ -564,7 +582,7 @@
                </div>
             </div>
          </div> -->
-      <div class="why-gs-mentor">
+      <div class="why-gs-mentor" id="why-now">
          <div class="w-container">
             <div class="div-block-750">
                <div id="w-node-_1866f97a-6e45-c9b1-c12a-faecde8640b9-524453fe" class="div-block-743">
@@ -580,13 +598,11 @@
                         data-video-urls="https://assets.website-files.com/63c698560a57ab3deb917f5a/64367559702aadfa4a4a402c_ChatGPT - Reactions 2 (1)-transcode.mp4,https://assets.website-files.com/63c698560a57ab3deb917f5a/64367559702aadfa4a4a402c_ChatGPT - Reactions 2 (1)-transcode.webm"
                         data-autoplay="true" data-loop="true" data-wf-ignore="true"
                         class="background-video-5 chatgpt w-background-video w-background-video-atom">
-                        <video id="874c1b99-cd8b-ddf5-7ca2-53d9c6b30417-video"  controls
+                        <video id="874c1b99-cd8b-ddf5-7ca2-53d9c6b30417-video" controls
                            style="background-image:url(_https_/assets.website-files.com/63c698560a57ab3deb917f5a/64367559702aadfa4a4a402c_ChatGPT%20-%20Reactions%202%20(1)-poster-00001.jpg&quot;)"
-                          playsinline="" data-wf-ignore="true" data-object-fit="cover">
-                           <source
-                              src="./image/snip-video.mp4"
-                              data-wf-ignore="true" />
-                         
+                           playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                           <source src="./image/snip-video.mp4" data-wf-ignore="true" />
+
                         </video>
                      </div>
                   </div>
@@ -636,13 +652,14 @@
                <!-- <div id="w-node-_8842acb1-ec87-38e6-0a3d-5db4120504ca-524453fe" class="div-block-745">
                      <p class="paragraph-65">While there are Millions of people in the world are still figuring out what ChatGPT exactly is meet the person who has already started using it at his <strong class="bold-text-3">Sequoia </strong>Funded Start-Up:-</p>
                   </div> -->
-               <div id="w-node-_80c530f7-9ebc-80c4-3da4-d1f6e19a0625-524453fe" class="div-block-746">
-                  <div>
-                     <h2 class="gpt-heading">Meet Your Mentor</h2>
-                  </div>
-                  <div class="div-block-889">
-                     <img src="./image/rachna-image.jpeg">
-                     <!-- <div id="w-node-f4dbb533-20f2-ddcb-e6e2-c56346b8a198-524453fe" class="mentor-image-container">
+               <div id="mentor">
+                  <div id="w-node-_80c530f7-9ebc-80c4-3da4-d1f6e19a0625-524453fe" class="div-block-746">
+                     <div>
+                        <h2 class="gpt-heading">Meet Your Mentor</h2>
+                     </div>
+                     <div class="div-block-889">
+                        <img src="./image/rachna-image.jpeg">
+                        <!-- <div id="w-node-f4dbb533-20f2-ddcb-e6e2-c56346b8a198-524453fe" class="mentor-image-container">
                         <div id="w-node-_1664b387-d2e4-ea64-5a8b-0f8d3e2fda76-524453fe" class="div-block-890">
                            <div class="div-block-891">
                               <div class="text-block-451">Vaibhav Sisinty</div>
@@ -673,12 +690,14 @@
                            </div>
                         </div>
                      </div> -->
-                     <div id="w-node-_9a73446e-94f8-8524-8428-909105ae7784-524453fe" class="div-block-896">
-                        <p class="paragraph-86">Rachna a 4X founder with multi-decades of experience. She is a wharton
-                           alumni and her past companies have gotten multi-million exits. She has been spearheading
-                           Flagship’s impact with only 1 goal in mind, foster the growth of next generation of America.
-                        </p>
-                        <!-- <div class="div-block-898">
+                        <div id="w-node-_9a73446e-94f8-8524-8428-909105ae7784-524453fe" class="div-block-896">
+                           <p class="paragraph-86">Rachna a 4X founder with multi-decades of experience. She is a
+                              wharton
+                              alumni and her past companies have gotten multi-million exits. She has been spearheading
+                              Flagship’s impact with only 1 goal in mind, foster the growth of next generation of
+                              America.
+                           </p>
+                           <!-- <div class="div-block-898">
                            <div class="text-block-454">Featured in</div>
                            <div class="div-block-894">
                               <div id="w-node-_1360317e-87f2-53d6-963f-0acba1201591-524453fe" class="div-block-895"><img
@@ -695,6 +714,7 @@
                                     loading="lazy" alt="" /></div>
                            </div>
                         </div> -->
+                        </div>
                      </div>
                   </div>
                </div>
@@ -1265,12 +1285,12 @@
 
 
       function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
+         document.getElementById("mySidenav").style.width = "250px";
+      }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
+      function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+      }
 
    </script>
 </body>
