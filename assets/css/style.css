@@ -1,9 +1,18 @@
-body,p,li,h1,h2,h3,span,a{
+body,
+p,
+li,
+h1,
+h2,
+h3,
+span,
+a {
   font-family: "Raleway";
 }
+
 .container-header {
   padding: 0px 80px;
 }
+
 .marquee {
   position: relative;
   width: 100vw;
@@ -20,8 +29,13 @@ body,p,li,h1,h2,h3,span,a{
 }
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 
 }
 
@@ -30,7 +44,7 @@ body,p,li,h1,h2,h3,span,a{
 
 .navbar {
   margin-bottom: 0;
-  background-color: #17598D;
+  background-color: #000;
   z-index: 11;
   border: 0;
   font-size: 16px !important;
@@ -45,7 +59,7 @@ body,p,li,h1,h2,h3,span,a{
 }
 
 .navbar .navbar-brand img {
-  width: 75%;
+  width: 102px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -77,8 +91,8 @@ body,p,li,h1,h2,h3,span,a{
 }
 
 .dropdown-menu {
-  background-color: #17598D !important;
-  border: 1px solid #17598D;
+  background-color: #000 !important;
+  border: 1px solid #000;
 }
 
 .dropdown-menu li:hover {
@@ -86,28 +100,120 @@ body,p,li,h1,h2,h3,span,a{
 }
 
 .dropdown-menu li a:hover {
-  color: #17598D !important
+  color: #000 !important
 }
 
 .contact-us {
-  background: #ffdb1d;
+  background: #000;
+  border-radius: 60px;
+  padding: 5px 23px !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  margin-top: 25px !important;
+  border: 3px solid #39AB1D;
+}
+
+
+/* .first-section {
+  height: 100vh;
+  overflow: auto;
+} */
+
+.first-section {
+  background-color: black;
+  height: 650px;
+}
+
+.first-section .m-t-92{
+  margin-top: 92px;
+}
+
+.first-section .m-t-92 img{
+  width: 70%;
+}
+
+.first-section .enroll-now p {
+  color: white;
+  margin-top: 230px;
+  margin-bottom: 0px;
+  font-size: 19px;
+}
+.enroll-now{
+  margin-left: 100px;
+}
+.getsocial{
+  color: #fff;
+  padding-right: 10px;
+}
+.line{
+  border-bottom: 1px solid gray;
+ position: relative;
+  top: -8px;
+  color: transparent;
+  left: -5px;
+}
+.first-section .enroll-now h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57px;
+  /* line-height: 95px; */
+  color: #FFFFFF;
+  margin-top: 0px;
+}
+
+.first-section .enroll-now button {
+  justify-content: center;
+  align-items: center;
+  padding: 3px 35px;
+  border: 3px solid #39AB1D;
+  background: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* border-radius: 12px; */
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+.social-icon .fa {
+  color: #39AB1D;
+  margin-top: 130px;
+}
+
+.social-icon a {
+  font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 17px;
+    /* margin-left: 60px; */
+}
+
+
+
+.second-section {
+  /* background-image: url(../image/second-section.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 19px; */
+  background-color: gray;
+}
+
+.m-b-40 {
+  margin-bottom: 40px;
+}
+
+.second-section .contact-us {
+  background: #fff;
   border-radius: 60px;
   padding: 5px 23px !important;
   color: #000 !important;
   font-weight: 700 !important;
   margin-top: 25px !important;
-}
-
-.first-section {
-  height: 100vh;
-  overflow: auto;
-}
-
-.second-section {
-  background-image: url(../image/second-section.png);
-  background-repeat: no-repeat;
-  background-position: left top;
-  padding-top: 19px;
+  border: 3px solid #39AB1D;
 }
 
 .home {
@@ -144,6 +250,19 @@ body,p,li,h1,h2,h3,span,a{
   width: 100%;
 }
 
+.feq-image img {
+  width: 80%;
+
+}
+
+/* .w-80 {
+  width: 80%;
+} */
+
+/* .sixth section .feq-image img{
+  width: 70%;
+} */
+
 .join-us {
   font-family: 'Raleway';
   font-style: normal;
@@ -170,15 +289,16 @@ body,p,li,h1,h2,h3,span,a{
 }
 
 .event-heading h2 {
-  color: #030303;
+  color: #fff;
   font-size: 36px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-align: center;
-  margin-top: 110px;
-  /* margin-bottom: 60px; */
+  margin-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 0px;
 }
 
 .event-text1 {
@@ -209,31 +329,39 @@ body,p,li,h1,h2,h3,span,a{
 }
 
 .event-text {
-  background-color: #E0EFFA;
+  background-color: #000;
   padding: 5px 38px;
   border-bottom-left-radius: 21px;
   border-bottom-right-radius: 21px;
   min-height: 271px;
 }
-.buyNowcard{
+
+.buyNowcard {
   min-height: 453px;
 }
 
-
-
-.carousel-inner .item{
- 
+.third-section {
+  background-color: #000;
 }
-.carousel-inner .item .product{
+
+.carousel-inner .item {}
+
+.carousel-inner .item .product {
   position: absolute;
-    bottom: 61px;
-    left: 47px;
+  bottom: 61px;
+  left: 47px;
 }
-a.carousel-control{
+
+a.carousel-control {
   display: none;
 }
+
+/* a.carousel-control {
+  color: #04AA6D;
+} */
+
 .event-text h2 {
-  color: #000;
+  color: #fff;
   font-size: 20px;
   font-family: "Raleway";
   font-style: normal;
@@ -242,7 +370,7 @@ a.carousel-control{
 }
 
 .event-text p {
-  color: #000;
+  color: #fff;
   font-size: 16px;
   font-family: "Raleway";
   font-style: normal;
@@ -253,23 +381,31 @@ a.carousel-control{
 
 .event-heading p {
   text-align: center;
+  color: #fff;
 }
 
 .Brainstorm-btn {
   border-radius: 47px;
-  border: 1px solid #1E920B;
-  background: #E9FDE6;
+  border: none;
+  background: #000;
   padding: 17px 52px;
-  color: #000;
+  color: #fff;
   font-weight: 700;
   font-size: 20px;
 }
 
+.bullet {
+  font-size: 36px;
+  position: absolute;
+  left: 22px;
+  top: 7px;
+}
+
 
 .Market-btn {
-  background-color: #D4ECFF;
-  border: 1px solid #17598D;
-  color: #000;
+  background: #000;
+  border: none;
+  color: #fff;
   padding: 17px 26px;
   text-align: center;
   text-decoration: none;
@@ -281,29 +417,28 @@ a.carousel-control{
 }
 
 .Idea-btn {
-  border-radius: 47px;
-  border: 1px solid #B611B9;
-  background: #F9E4FA;
+  background: #000;
   padding: 17px 26px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  color: #000;
+  color: #fff;
   font-weight: 700;
   font-size: 20px;
+  border: none;
 }
 
 .Product-btn {
-  border-radius: 47px;
-  border: 1px solid #FFC102;
-  background: #FFF9D9;
+  background: #000;
   padding: 17px 34px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  color: #000;
+  color: #fff;
   font-weight: 700;
   font-size: 20px;
+  border: none;
+
 }
 
 /* .m-t-130 {
@@ -311,18 +446,18 @@ a.carousel-control{
 } */
 
 .fourth-section {
-  background-color: white;
-  background-image: linear-gradient(white, #1b5c8f);
+  background-color: black;
+  /* background-image: linear-gradient(#888585, #000); */
 }
 
 .fifth-section {
-  background-color: #17598D;
+  background-color: #000;
   padding: 65px 0px;
   /* margin-top: 38px; */
 }
 
 .initiative-head h2 {
-  color: #FFDB1D;
+  color: #39AB1D;
   text-align: center;
   font-size: 36px;
   font-family: "Raleway";
@@ -355,8 +490,12 @@ a.carousel-control{
   height: auto;
 }
 
+.bg-black{
+  background-color: #000;
+}
+
 .accordion {
-  background-color: #eee;
+  background-color: #fff;
   color: #000000;
   cursor: pointer;
   padding: 18px;
@@ -372,7 +511,7 @@ a.carousel-control{
 
 .accordian .active,
 .accordian .accordion:hover {
-  background-color: #ccc;
+  background-color: #fff;
 }
 
 .accordion:after {
@@ -443,14 +582,14 @@ a.carousel-control{
 }
 
 .frequently-heading h2 {
-  color: #030303;
+  color: #39AB1D;
   font-size: 36px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-align: center;
-  margin-top: 65px;
+  margin-top: 0px;
   margin-bottom: 65px;
 }
 
@@ -458,6 +597,8 @@ a.carousel-control{
   padding: 130px 0px 195px;
   display: flex;
 }
+
+
 
 .model-details input {
   margin-top: 10px;
@@ -476,7 +617,7 @@ a.carousel-control{
 
 
 
-.videoWrapper video{
+.videoWrapper video {
   width: 100%;
 }
 
@@ -489,11 +630,12 @@ a.carousel-control{
     position: absolute;
     bottom: 9px;
     left: 4px;
-}
+  }
+
   .contact-us {
     display: inline-block !important;
   }
- 
+
 
   .first-section {
     height: auto;
@@ -517,7 +659,7 @@ a.carousel-control{
   }
 
   .navbar .navbar-brand img {
-    width: 63%;
+    width: 80px;
   }
 
   /* .navbar .navbar-brand {
@@ -556,7 +698,30 @@ a.carousel-control{
     top: -12px;
 
   }
-  .second-section .col-md-3{
+
+  .first-section .enroll-now p {
+    color: white;
+    margin-top: 97px;
+    margin-bottom: 0px;
+    font-size: 19px;
+  }
+
+  .first-section .m-t-92 img{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .enroll-now{
+    margin-left: 60px;
+  }
+
+  .social-icon .fa {
+    color: #1cee1a;
+    margin-top: 50px;
+  }
+  
+
+  .second-section .col-md-3 {
     margin-top: 20px;
   }
 
@@ -600,7 +765,8 @@ a.carousel-control{
   }
 
   .event-heading h2 {
-    margin-top: 48px;
+    /* margin-top: 48px; */
+    padding-top: 30px;
   }
 
 
@@ -612,13 +778,13 @@ a.carousel-control{
   .mobile-btn {
     padding: 23px 37px;
     font-size: 23px;
-        margin-left: 36px;
+    margin-left: 36px;
   }
 
   .mobile-btn-test {
     padding: 23px 47px;
     font-size: 23px;
-        margin-left: 36px;
+    margin-left: 36px;
   }
 
   .mobile-btn-strom {
@@ -671,18 +837,21 @@ a.carousel-control{
 
 /* terms css start here */
 
-.termsWrapper{
+.termsWrapper {
   max-height: 500px;
-    overflow: auto;
+  overflow: auto;
 }
-.termsWrapper div{
+
+.termsWrapper div {
   width: 100%;
   margin-left: 0px;
 }
-.termsWrapper div h2{
+
+.termsWrapper div h2 {
   font-size: 18px;
 }
-.buy-btn{
+
+.buy-btn {
   background: green;
   border: 1px solid green;
   color: #fff;
@@ -717,7 +886,7 @@ a.carousel-control{
 
 .Restrictions-condition {
   margin-top: 50px;
-  }
+}
 
 .Restrictions-condition h2 {
   font-weight: 600;
@@ -736,6 +905,7 @@ a.carousel-control{
   font-weight: 600;
   margin-top: 30px;
 }
+
 /* terms css end here */
 
 /*        subscription          */
@@ -764,7 +934,7 @@ a.carousel-control{
 }
 
 .price:hover {
-  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
 }
 
 .price .header {
@@ -778,13 +948,16 @@ a.carousel-control{
   padding: 20px;
   text-align: center;
   color: #000;
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .condition-head {
   text-align: center;
   padding: 20px;
 }
+
+
+
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;
@@ -812,6 +985,11 @@ a.carousel-control{
 }
 
 .terms-condition h2 {
-    margin-top: 30px;
-  
+  margin-top: 30px;
+
+}
+
+.feq-image-mobile img {
+  width: 100%;
+    margin-bottom: 45px;
 }
