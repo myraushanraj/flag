@@ -199,7 +199,7 @@ a {
   background-repeat: no-repeat;
   background-position: left top;
   padding-top: 19px; */
-  background-color: gray;
+  background-color: #2F2F2F;
 }
 
 .m-b-40 {
@@ -250,10 +250,10 @@ a {
   width: 100%;
 }
 
-.feq-image img {
+/* .feq-image img {
   width: 80%;
 
-}
+} */
 
 /* .w-80 {
   width: 80%;
@@ -334,6 +334,7 @@ a {
   border-bottom-left-radius: 21px;
   border-bottom-right-radius: 21px;
   min-height: 271px;
+  box-shadow: 0 8px 6px -4px #4c4949;
 }
 
 .buyNowcard {
