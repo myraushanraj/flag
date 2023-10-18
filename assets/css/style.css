@@ -121,7 +121,8 @@ a {
 
 .first-section {
   background-color: black;
-  height: 650px;
+  /* height: 650px; */
+  padding-bottom: 59px;
 }
 
 .first-section .m-t-92{
