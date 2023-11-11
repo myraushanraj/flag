@@ -3841,3 +3841,6 @@ p {
   padding: 0px 16px;
   color: red;
 }
+.preloader{
+  display: none;
+}

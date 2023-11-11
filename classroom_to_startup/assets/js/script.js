@@ -423,6 +423,7 @@ const phone = document.getElementById("phone").value;
 const email = document.getElementById("email").value;
 
 var reg = '^[0-9]*$';
+let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 if(!name){
   document.getElementById("error").innerHTML = "Name is mandatory!";
@@ -433,7 +434,12 @@ else if(!phone){
 }
 else if(!phone.match(reg) || phone.length !==10){
   document.getElementById("error").innerHTML = "Phone should be 10 digit!";
-}else{
+}
+else if(email && !email.match(regex)){
+  document.getElementById("error").innerHTML = "Invalid email address!";
+}
+
+else{
   
   var payload = {
     "name": name,
