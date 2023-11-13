@@ -450,10 +450,15 @@ const formSubmit = async () => {
       body: JSON.stringify(payload),
     });
     const content = await rawResponse.json();
-    const htmlData = `
+ 
+  }
+};
+
+
+const htmlData = `
 
 <div class=" text-center">
- <img class="mt--100" src="assets/images/blink.gif" width="100%" alt="" style="max-width: 300px;">
+<img class="" src="assets/images/blink1.gif" width="100%" alt="" style="max-width: 125px;">
 </div>
 
 
@@ -462,5 +467,3 @@ const formSubmit = async () => {
 <h5 class="mt-10 text-center">Your Slot has been booked successfully!!</h5>
 `;
     document.getElementById("contactWrap").innerHTML = htmlData;
-  }
-};
