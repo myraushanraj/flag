@@ -416,48 +416,41 @@ $(function () {
   }
 });
 
-const formSubmit = async()=>{
+const formSubmit = async () => {
   document.getElementById("error").innerHTML = "";
-const name = document.getElementById("name").value;
-const phone = document.getElementById("phone").value;
-const email = document.getElementById("email").value;
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const email = document.getElementById("email").value;
 
-var reg = '^[0-9]*$';
-let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  var reg = "^[0-9]*$";
+  let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-if(!name){
-  document.getElementById("error").innerHTML = "Name is mandatory!";
-}
-else if(!phone){
-  document.getElementById("error").innerHTML = "Phone is mandatory!";
-
-}
-else if(!phone.match(reg) || phone.length !==10){
-  document.getElementById("error").innerHTML = "Phone should be 10 digit!";
-}
-else if(email && !email.match(regex)){
-  document.getElementById("error").innerHTML = "Invalid email address!";
-}
-
-else{
-  
-  var payload = {
-    "name": name,
-    "email": email,
-    "sponsor": "Phone-" + phone,
-    "website": "flagship",
-    "message": "Phone:-"+phone,
-};
-const rawResponse = await fetch('https://api.khubero.com/website/contact', {
-    method: 'POST',
-    headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(payload)
-});
-const content = await rawResponse.json();
-const htmlData = `
+  if (!name) {
+    document.getElementById("error").innerHTML = "Name is mandatory!";
+  } else if (!phone) {
+    document.getElementById("error").innerHTML = "Phone is mandatory!";
+  } else if (!phone.match(reg) || phone.length !== 10) {
+    document.getElementById("error").innerHTML = "Phone should be 10 digit!";
+  } else if (email && !email.match(regex)) {
+    document.getElementById("error").innerHTML = "Invalid email address!";
+  } else {
+    var payload = {
+      name: name,
+      email: email,
+      sponsor: "Phone-" + phone,
+      website: "flagship",
+      message: "Phone:-" + phone,
+    };
+    const rawResponse = await fetch("https://api.khubero.com/website/contact", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+    const content = await rawResponse.json();
+    const htmlData = `
 
 <div class=" text-center">
  <img class="mt--100" src="assets/images/blink.gif" width="100%" alt="" style="max-width: 300px;">
@@ -467,13 +460,7 @@ const htmlData = `
 
 
 <h5 class="mt-10 text-center">Your Slot has been booked successfully!!</h5>
-`
-document.getElementById("contactWrap").innerHTML = htmlData;
-
-}
-
-
-
-
-}
-
+`;
+    document.getElementById("contactWrap").innerHTML = htmlData;
+  }
+};

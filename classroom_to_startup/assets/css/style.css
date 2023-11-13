@@ -3836,6 +3836,7 @@ p {
   color: var(--grey);
   text-transform: capitalize;
 }
+
 #error{
   margin: 0px;
   padding: 0px 16px;
