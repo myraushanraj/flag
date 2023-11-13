@@ -637,7 +637,10 @@ extra small (xs)
     }
     .home1.banner h3 {
         font-size: 28px;
-        line-height: 34px;
+        line-height: 0px;
+    }
+    .home1 .mt-15 {
+        margin-top: -6px;
     }
     .home1.banner p{
         padding-right: 0;
