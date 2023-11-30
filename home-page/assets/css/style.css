@@ -75,7 +75,28 @@
 
   .section-1 {
     background-color: #071013;
+    background-image: url(../image/section1-image.png);
+    background-repeat: no-repeat;
+    padding-top: 19px;
     margin-top: 78px;
+    background-size: cover;
+    height: 600px;
+    padding-bottom: 70px;
+
+  }
+  .p-r-0{
+    padding-right: 0px;
+  }
+  .p-l-0{
+    padding-left: 0px;
+  }
+  .upcoming-img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 0px 0px 60px 0px
+  }
+  .upcomg-wrap{
+    display: flex;
   }
 
   .section-1 .discount {
@@ -105,31 +126,34 @@
     background-image: linear-gradient(to right, #1b4345, #090909);
   }
 
-  .section-2 h2{
-    font-size: 24px;
-    color: white;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 0px;
-    padding-top: 90px;
-    margin-bottom: 30px;
-  }
+.event-box{
+  height: 100%;
+  padding-left: 20px;
+}
 
-  .section-2 .event-box {
-    background-color: #242424;
-    padding: 5px 43px;
-    color: #fff;
-  }
+ .title{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24.931px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px;
+  text-align: center;
+  padding: 50px 0px 36px 0px;
+ }
 
-  .section-2 .event-box h2{
+  .section-2 .event-box h3{
     font-size: 16px;
     font-weight: 600;
     text-align: left;
+color: #fff;
   }
 
   .section-2 .event-box p{
     font-size: 10px;
     font-weight: 400;
+    color: #fff;
   }
 
   .event-box-button {
@@ -140,6 +164,7 @@
     border-radius: 60px;
     border: 1px solid #353535;
     color: #fff;
+    margin-top: 50px;
   }
 
   .section-3 {
@@ -161,10 +186,42 @@
     color: #8E8E8E;
     text-align: center;
   }
-
+  .what-gpt{
+    padding: 13px;
+    font-size: 13px;
+  }
+  .answer{
+    padding: 27px 59px;
+    line-height: 27px;
+    background: #000;
+  }
+  .enterQues{
+    width: 100%;
+    height: 36px;
+    background: #000;
+    border: none;
+    margin-top: 145px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .inputWrapper{
+    position: relative;
+  }
+  .send{
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+  }
+.w-100{
+  width: 100%;
+}
   .section-3 .flag-gpt {
     color: #fff;
     font-size: 11px;
+    background-color: #232323;
+    background-image: url(../image/gpt.png);
+    background-repeat: no-repeat;
+    min-height: 400px
   }
 
   .section-4 {
@@ -180,7 +237,7 @@
   border-radius: 10px;
   border: 1px solid #413f3f;
   padding: 34px 30px;
-  width: 54%;
+  width: 92%;
   margin-top: 30px;
 }
 
@@ -215,13 +272,19 @@
 .background-color {
   background-color: #090909;
 }
-
+.section-6 .sub-points{
+  display: flex;
+}
 .section-6 .sub-points h2{
   font-size: 12px;
   font-weight: 600;
   color: #fff;
 }
-
+.iconWrap{
+  align-items: center;
+  display: flex;
+  padding: 14px;
+}
 .section-6 .sub-points p{
   font-size: 11px;
   font-weight: 400;
@@ -237,9 +300,9 @@
 
 .section-7 .pitch-event-box{
   background: #151515;
-    padding: 10px 13px;
-    border-radius: 15px;
-    width: 55%;
+  padding: 47px 13px;
+  border-radius: 15px;
+  width: 90%;
 }
 
 .pitch-event-box h2{
