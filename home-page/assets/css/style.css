@@ -1,3 +1,6 @@
+h1, h2, h3,h4,h5,h6,p,a,li,div,span{
+  font-family: 'Poppins', sans-serif;
+}
 .container-header {
     padding: 0px 80px;
 }
@@ -28,7 +31,6 @@
 
   .navbar li a {
     color: #fff;
-    font-family: "Raleway";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -133,7 +135,6 @@
 
  .title{
   color: #FFF;
-  font-family: Inter;
   font-size: 24.931px;
   font-style: normal;
   font-weight: 600;
@@ -372,7 +373,6 @@ color: #fff;
 }
 
 .footer a {
-  font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
