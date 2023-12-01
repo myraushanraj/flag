@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
+
 </head>
 
 <body>
@@ -134,7 +136,117 @@
                 <br />journey.
             </p>
             <div class="text-center">
-                <img src="./assets/image/Interaction.png" class="w-100" />
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                       <div class="sliderWrap">
+                        <p>color text</p>
+                        <h2>Summarix</h2>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet </li>
+                            <li>Lorem ipsum dolor sit amet </li>
+
+                            <li>Lorem ipsum dolor sit amet </li>
+
+                            <li>Lorem ipsum dolor sit amet </li>
+
+                            <li>Lorem ipsum dolor sit amet </li>
+
+                            <li>Lorem ipsum dolor sit amet </li>
+
+                            <li>Lorem ipsum dolor sit amet </li>
+
+                        </ul>
+                       </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sliderWrap">
+                            <p>color text</p>
+                            <h2>Summarix</h2>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet </li>
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                            </ul>
+                           </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sliderWrap">
+                            <p>color text</p>
+                            <h2>Summarix</h2>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet </li>
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                            </ul>
+                           </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sliderWrap">
+                            <p>color text</p>
+                            <h2>Summarix</h2>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet </li>
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                            </ul>
+                           </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="sliderWrap">
+                            <p>color text</p>
+                            <h2>Summarix</h2>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet </li>
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                                <li>Lorem ipsum dolor sit amet </li>
+    
+                            </ul>
+                           </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
             </div>
         </div>
     </div>
@@ -529,5 +641,38 @@
             </div>
         </div>
     </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+   <script>
+    var swiper = new Swiper(".swiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2.5
+      },
+      keyboard: {
+        enabled: true
+      },
+      mousewheel: {
+        thresholdDelta: 70
+      },
+      spaceBetween: 30,
+      loop: true,
+      breakpoints: {
+        640: {
+          slidesPerView: 2
+        },
+       
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
+    });
+    
+    swiper.slideTo(1, false, false);
+</script>
 </body>
-</html>
