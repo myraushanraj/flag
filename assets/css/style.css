@@ -921,9 +921,9 @@ a.carousel-control {
 }
 
 .columns {
-  float: left;
-  width: 33.3%;
+  width: 50%;
   padding: 8px;
+  margin: auto;
 }
 
 .price {
@@ -941,16 +941,25 @@ a.carousel-control {
 
 .price .header {
   background-color: #111;
-  color: white;
-  font-size: 25px;
+  color: white !important;
+  font-size: 25px !important;
+  padding-top: 20px !important;
+}
+.price li:nth-child(odd) {
+  padding: 20px;
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.price li {
+.price li:nth-child(even) {
   border-bottom: 1px solid #eee;
   padding: 20px;
   text-align: center;
   color: #000;
   font-weight: 600;
+  padding-top: 0px;
 }
 
 .condition-head {

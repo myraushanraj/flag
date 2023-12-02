@@ -202,14 +202,14 @@ transform: translate3d(-145px, 0px, -266.484px) rotateX(0deg) rotateY(0deg) scal
 }
 
 .section-1 {
-  background-color: #071013;
-  background-image: url(../image/section1-image.png);
+  background: url(../image/section1-image.png), #071013;
   background-repeat: no-repeat;
   padding-top: 19px;
   margin-top: 78px;
   background-size: cover;
   height: 600px;
   padding-bottom: 70px;
+
 
 }
 
